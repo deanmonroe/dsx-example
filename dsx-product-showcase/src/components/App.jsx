@@ -13,6 +13,17 @@ import ProductTags from "./ProductTags";
 import CustomerSupport from "./CustomerSupport";
 import ToastProvider from "./ToastProvider";
 
+// Import new components
+import Breadcrumbs from "./Breadcrumbs";
+import SearchBar from "./SearchBar";
+import { ShippingNote, PromotionNote } from "./ProductNote";
+import { ShippingInfoTooltip, SizeGuideTooltip } from "./ProductTooltip";
+import ProductFilter, { PriceRangeFilter, RatingFilter } from "./ProductFilter";
+import {
+  RelatedProductsScroll,
+  RecentlyViewedScroll,
+} from "./ScrollableProductList";
+
 // Sample product for detail view
 const sampleProduct = {
   id: 1,
@@ -28,6 +39,11 @@ const sampleProduct = {
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [showDetailView, setShowDetailView] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [currentPage, setCurrentPage] = useState("Home");
+  const [productFilter, setProductFilter] = useState("all");
+  const [priceRange, setPriceRange] = useState("all");
+  const [ratingFilter, setRatingFilter] = useState("all");
 
   const handleSelectCategory = (categoryId) => {
     setSelectedCategory(categoryId === selectedCategory ? null : categoryId);
@@ -35,6 +51,19 @@ const App = () => {
 
   const toggleDetailView = () => {
     setShowDetailView(!showDetailView);
+    setCurrentPage(showDetailView ? "Products" : "Product Details");
+  };
+
+  const handleSearch = (query) => {
+    setSearchQuery(query);
+    console.log("Searching for:", query);
+    // In a real app, you would filter products based on the search query
+  };
+
+  const handleFilterChange = (filter) => {
+    setProductFilter(filter);
+    console.log("Filter changed to:", filter);
+    // In a real app, you would filter products based on the selected filter
   };
 
   return (
@@ -47,6 +76,12 @@ const App = () => {
 
         {/* Main content */}
         <main className="container">
+          {/* Breadcrumbs navigation */}
+          <Breadcrumbs currentPage={currentPage} />
+
+          {/* Search Bar */}
+          <SearchBar onSearch={handleSearch} />
+
           <div style={{ padding: "var(--size-500) 0" }}>
             <Text variant="display-headline-2">Product Showcase</Text>
             <Text variant="body">
@@ -56,6 +91,12 @@ const App = () => {
 
           {/* Special Offers Banner */}
           <SpecialOffers />
+
+          {/* Shipping Note */}
+          <ShippingNote />
+
+          {/* Promotion Note */}
+          <PromotionNote />
 
           {/* Featured Products Carousel */}
           <div style={{ margin: "var(--size-600) 0" }}>
@@ -74,6 +115,21 @@ const App = () => {
               onSelectCategory={handleSelectCategory}
               selectedCategory={selectedCategory}
             />
+          </div>
+
+          {/* Product Filters */}
+          <div style={{ margin: "var(--size-600) 0" }}>
+            <div
+              style={{
+                display: "flex",
+                gap: "var(--size-600)",
+                flexWrap: "wrap",
+              }}
+            >
+              <ProductFilter onFilterChange={handleFilterChange} />
+              <PriceRangeFilter onPriceRangeChange={setPriceRange} />
+              <RatingFilter onRatingChange={setRatingFilter} />
+            </div>
           </div>
 
           {/* Product Detail View (Toggle for demo) */}
@@ -105,11 +161,31 @@ const App = () => {
             </div>
 
             {showDetailView ? (
-              <ProductDetail product={sampleProduct} />
+              <div>
+                <ProductDetail product={sampleProduct} />
+                <div
+                  style={{
+                    display: "flex",
+                    gap: "var(--size-300)",
+                    marginTop: "var(--size-400)",
+                  }}
+                >
+                  <ShippingInfoTooltip />
+                  <SizeGuideTooltip />
+                </div>
+              </div>
             ) : (
               <ProductGrid />
             )}
           </div>
+
+          {/* Related Products (only shown in detail view) */}
+          {showDetailView && (
+            <RelatedProductsScroll onProductClick={toggleDetailView} />
+          )}
+
+          {/* Recently Viewed Products */}
+          <RecentlyViewedScroll onProductClick={toggleDetailView} />
 
           {/* Product Comparison */}
           <div style={{ margin: "var(--size-600) 0" }}>
