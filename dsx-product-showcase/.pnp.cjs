@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@dsx/react", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:0.39.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.39.4.tgz"],\
+          ["@dsx/react", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:0.42.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.42.0.tgz"],\
           ["@vitejs/plugin-react", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:4.7.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540vitejs%2Fplugin-react%2F-%2Fplugin-react-4.7.0.tgz"],\
           ["jquery", "npm:3.7.1"],\
           ["react", "npm:18.3.1"],\
@@ -320,1239 +320,36 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@dsx-react/address", [\
-      ["npm:0.3.27::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Faddress%2F-%2Faddress-0.3.27.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-address-npm-0.3.27-70f318a99e-b3a00b0886.zip/node_modules/@dsx-react/address/",\
+    ["@dsx/react", [\
+      ["npm:0.42.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.42.0.tgz", {\
+        "packageLocation": "./.yarn/cache/@dsx-react-npm-0.42.0-6ad243cf63-2efab0c0d2.zip/node_modules/@dsx/react/",\
         "packageDependencies": [\
-          ["@dsx-react/address", "npm:0.3.27::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Faddress%2F-%2Faddress-0.3.27.tgz"]\
+          ["@dsx/react", "npm:0.42.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.42.0.tgz"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.27::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Faddress%2F-%2Faddress-0.3.27.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-address-virtual-34c520da85/0/cache/@dsx-react-address-npm-0.3.27-70f318a99e-b3a00b0886.zip/node_modules/@dsx-react/address/",\
+      ["virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:0.42.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.42.0.tgz", {\
+        "packageLocation": "./.yarn/__virtual__/@dsx-react-virtual-efbd9bda74/0/cache/@dsx-react-npm-0.42.0-6ad243cf63-2efab0c0d2.zip/node_modules/@dsx/react/",\
         "packageDependencies": [\
-          ["@dsx-react/address", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.27::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Faddress%2F-%2Faddress-0.3.27.tgz"],\
+          ["@dsx/react", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:0.42.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.42.0.tgz"],\
           ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
+          ["@floating-ui/react", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:0.26.28::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact%2F-%2Freact-0.26.28.tgz"],\
+          ["@tanstack/react-table", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:8.21.3::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540tanstack%2Freact-table%2F-%2Freact-table-8.21.3.tgz"],\
+          ["@types/d3-scale", "npm:4.0.9::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Fd3-scale%2F-%2Fd3-scale-4.0.9.tgz"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/banner-carousel", [\
-      ["npm:0.3.50::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbanner-carousel%2F-%2Fbanner-carousel-0.3.50.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-banner-carousel-npm-0.3.50-8c476ef4a2-4cc87c1608.zip/node_modules/@dsx-react/banner-carousel/",\
-        "packageDependencies": [\
-          ["@dsx-react/banner-carousel", "npm:0.3.50::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbanner-carousel%2F-%2Fbanner-carousel-0.3.50.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.50::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbanner-carousel%2F-%2Fbanner-carousel-0.3.50.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-banner-carousel-virtual-07bad96963/0/cache/@dsx-react-banner-carousel-npm-0.3.50-8c476ef4a2-4cc87c1608.zip/node_modules/@dsx-react/banner-carousel/",\
-        "packageDependencies": [\
-          ["@dsx-react/banner-carousel", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.50::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbanner-carousel%2F-%2Fbanner-carousel-0.3.50.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"],\
-          ["react-slick", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:0.29.0"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/breadcrumbs", [\
-      ["npm:0.1.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbreadcrumbs%2F-%2Fbreadcrumbs-0.1.34.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-breadcrumbs-npm-0.1.34-71c01b68c8-ea4093f94d.zip/node_modules/@dsx-react/breadcrumbs/",\
-        "packageDependencies": [\
-          ["@dsx-react/breadcrumbs", "npm:0.1.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbreadcrumbs%2F-%2Fbreadcrumbs-0.1.34.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbreadcrumbs%2F-%2Fbreadcrumbs-0.1.34.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-breadcrumbs-virtual-15753cc0ba/0/cache/@dsx-react-breadcrumbs-npm-0.1.34-71c01b68c8-ea4093f94d.zip/node_modules/@dsx-react/breadcrumbs/",\
-        "packageDependencies": [\
-          ["@dsx-react/breadcrumbs", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbreadcrumbs%2F-%2Fbreadcrumbs-0.1.34.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/button", [\
-      ["npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-button-npm-0.3.25-60505b697b-310a448e31.zip/node_modules/@dsx-react/button/",\
-        "packageDependencies": [\
-          ["@dsx-react/button", "npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-button-virtual-29f5232603/0/cache/@dsx-react-button-npm-0.3.25-60505b697b-310a448e31.zip/node_modules/@dsx-react/button/",\
-        "packageDependencies": [\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/link", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/card", [\
-      ["npm:0.3.8::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard%2F-%2Fcard-0.3.8.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-card-npm-0.3.8-c0fd0bf9b0-b0ae2b4058.zip/node_modules/@dsx-react/card/",\
-        "packageDependencies": [\
-          ["@dsx-react/card", "npm:0.3.8::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard%2F-%2Fcard-0.3.8.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.8::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard%2F-%2Fcard-0.3.8.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-card-virtual-779f00a51e/0/cache/@dsx-react-card-npm-0.3.8-c0fd0bf9b0-b0ae2b4058.zip/node_modules/@dsx-react/card/",\
-        "packageDependencies": [\
-          ["@dsx-react/card", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.8::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard%2F-%2Fcard-0.3.8.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/link", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/card-carousel", [\
-      ["npm:0.1.70::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard-carousel%2F-%2Fcard-carousel-0.1.70.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-card-carousel-npm-0.1.70-b461d4a1c8-a1373ee324.zip/node_modules/@dsx-react/card-carousel/",\
-        "packageDependencies": [\
-          ["@dsx-react/card-carousel", "npm:0.1.70::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard-carousel%2F-%2Fcard-carousel-0.1.70.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.70::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard-carousel%2F-%2Fcard-carousel-0.1.70.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-card-carousel-virtual-fb11c66ee1/0/cache/@dsx-react-card-carousel-npm-0.1.70-b461d4a1c8-a1373ee324.zip/node_modules/@dsx-react/card-carousel/",\
-        "packageDependencies": [\
-          ["@dsx-react/card-carousel", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.70::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard-carousel%2F-%2Fcard-carousel-0.1.70.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"],\
-          ["react-slick", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:0.29.0"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/chip", [\
-      ["npm:0.4.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fchip%2F-%2Fchip-0.4.4.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-chip-npm-0.4.4-24f0a8e7b0-a9a1de9cc2.zip/node_modules/@dsx-react/chip/",\
-        "packageDependencies": [\
-          ["@dsx-react/chip", "npm:0.4.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fchip%2F-%2Fchip-0.4.4.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.4.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fchip%2F-%2Fchip-0.4.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-chip-virtual-b65d0c412d/0/cache/@dsx-react-chip-npm-0.4.4-24f0a8e7b0-a9a1de9cc2.zip/node_modules/@dsx-react/chip/",\
-        "packageDependencies": [\
-          ["@dsx-react/chip", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.4.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fchip%2F-%2Fchip-0.4.4.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/cross-matrix", [\
-      ["npm:0.2.55::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcross-matrix%2F-%2Fcross-matrix-0.2.55.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-cross-matrix-npm-0.2.55-3415c8e521-aa7b7d668c.zip/node_modules/@dsx-react/cross-matrix/",\
-        "packageDependencies": [\
-          ["@dsx-react/cross-matrix", "npm:0.2.55::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcross-matrix%2F-%2Fcross-matrix-0.2.55.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.55::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcross-matrix%2F-%2Fcross-matrix-0.2.55.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-cross-matrix-virtual-e723eec595/0/cache/@dsx-react-cross-matrix-npm-0.2.55-3415c8e521-aa7b7d668c.zip/node_modules/@dsx-react/cross-matrix/",\
-        "packageDependencies": [\
-          ["@dsx-react/cross-matrix", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.55::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcross-matrix%2F-%2Fcross-matrix-0.2.55.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/skeleton", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fskeleton%2F-%2Fskeleton-0.2.41.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/theme", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/dialog", [\
-      ["npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-dialog-npm-0.1.12-bdea96983b-02028ef159.zip/node_modules/@dsx-react/dialog/",\
-        "packageDependencies": [\
-          ["@dsx-react/dialog", "npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:38e5cd888d41045a91270ccf33afe41ab2a390aec6f62515dc2b2686b8207abafc2150c260d5bfe4e8089a39ad5a06d04ea54a61da3a8deaccb46064a99d4a0a#npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-dialog-virtual-40d90d3b68/0/cache/@dsx-react-dialog-npm-0.1.12-bdea96983b-02028ef159.zip/node_modules/@dsx-react/dialog/",\
-        "packageDependencies": [\
-          ["@dsx-react/dialog", "virtual:38e5cd888d41045a91270ccf33afe41ab2a390aec6f62515dc2b2686b8207abafc2150c260d5bfe4e8089a39ad5a06d04ea54a61da3a8deaccb46064a99d4a0a#npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/provider", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.7.31::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprovider%2F-%2Fprovider-0.7.31.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/gallery", [\
-      ["npm:0.3.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fgallery%2F-%2Fgallery-0.3.41.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-gallery-npm-0.3.41-01e346db5b-963eb1650a.zip/node_modules/@dsx-react/gallery/",\
-        "packageDependencies": [\
-          ["@dsx-react/gallery", "npm:0.3.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fgallery%2F-%2Fgallery-0.3.41.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fgallery%2F-%2Fgallery-0.3.41.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-gallery-virtual-38e5cd888d/0/cache/@dsx-react-gallery-npm-0.3.41-01e346db5b-963eb1650a.zip/node_modules/@dsx-react/gallery/",\
-        "packageDependencies": [\
-          ["@dsx-react/gallery", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fgallery%2F-%2Fgallery-0.3.41.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/dialog", "virtual:38e5cd888d41045a91270ccf33afe41ab2a390aec6f62515dc2b2686b8207abafc2150c260d5bfe4e8089a39ad5a06d04ea54a61da3a8deaccb46064a99d4a0a#npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/image", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.58::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fimage%2F-%2Fimage-0.2.58.tgz"],\
-          ["@dsx-react/scrollable", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.67::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fscrollable%2F-%2Fscrollable-0.1.67.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/theme", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/i18n", [\
-      ["npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-i18n-npm-0.2.33-007097e540-460c97579c.zip/node_modules/@dsx-react/i18n/",\
-        "packageDependencies": [\
-          ["@dsx-react/i18n", "npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-i18n-virtual-c2e91235ee/0/cache/@dsx-react-i18n-npm-0.2.33-007097e540-460c97579c.zip/node_modules/@dsx-react/i18n/",\
-        "packageDependencies": [\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
+          ["@types/react-slick", "npm:0.23.13::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Freact-slick%2F-%2Freact-slick-0.23.13.tgz"],\
+          ["clsx", "npm:2.1.1"],\
+          ["d3-scale", "npm:4.0.2"],\
           ["intl-messageformat", "npm:10.7.16"],\
           ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/icon", [\
-      ["npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-icon-npm-0.3.48-d2caaf15da-f0e6496623.zip/node_modules/@dsx-react/icon/",\
-        "packageDependencies": [\
-          ["@dsx-react/icon", "npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-icon-virtual-4e6da260d1/0/cache/@dsx-react-icon-npm-0.3.48-d2caaf15da-f0e6496623.zip/node_modules/@dsx-react/icon/",\
-        "packageDependencies": [\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/theme", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"],\
-          ["react-icons", "virtual:4e6da260d117687977f55482a8802a44777a81abd2caf8fad57fcffe2c390910a7b79245065e7acf653bda4660aaa84c85ad049f7920196915c3d9dbb04a2f31#npm:5.5.0"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/image", [\
-      ["npm:0.2.58::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fimage%2F-%2Fimage-0.2.58.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-image-npm-0.2.58-155206e0db-2efc99dec0.zip/node_modules/@dsx-react/image/",\
-        "packageDependencies": [\
-          ["@dsx-react/image", "npm:0.2.58::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fimage%2F-%2Fimage-0.2.58.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.58::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fimage%2F-%2Fimage-0.2.58.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-image-virtual-3b1ee6ccd9/0/cache/@dsx-react-image-npm-0.2.58-155206e0db-2efc99dec0.zip/node_modules/@dsx-react/image/",\
-        "packageDependencies": [\
-          ["@dsx-react/image", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.58::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fimage%2F-%2Fimage-0.2.58.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/inputs", [\
-      ["npm:0.19.11::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Finputs%2F-%2Finputs-0.19.11.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-inputs-npm-0.19.11-742d0deeaa-416fd36d13.zip/node_modules/@dsx-react/inputs/",\
-        "packageDependencies": [\
-          ["@dsx-react/inputs", "npm:0.19.11::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Finputs%2F-%2Finputs-0.19.11.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.19.11::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Finputs%2F-%2Finputs-0.19.11.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-inputs-virtual-019f38d7c7/0/cache/@dsx-react-inputs-npm-0.19.11-742d0deeaa-416fd36d13.zip/node_modules/@dsx-react/inputs/",\
-        "packageDependencies": [\
-          ["@dsx-react/inputs", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.19.11::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Finputs%2F-%2Finputs-0.19.11.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/dialog", "virtual:38e5cd888d41045a91270ccf33afe41ab2a390aec6f62515dc2b2686b8207abafc2150c260d5bfe4e8089a39ad5a06d04ea54a61da3a8deaccb46064a99d4a0a#npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/menu", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.6.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmenu%2F-%2Fmenu-0.6.0.tgz"],\
-          ["@dsx-react/provider", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.7.31::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprovider%2F-%2Fprovider-0.7.31.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@floating-ui/react", "virtual:019f38d7c7347e07895abefdba51d52def5f8b7e1abb36c5f5ab347c0a8c048354b36daf32f70cf5bac3e10a688515565eb3b41b7b78bc82bdaf9bbece9be01f#npm:0.26.28::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact%2F-%2Freact-0.26.28.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["calendarize", "npm:1.1.1"],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"],\
-          ["react-dropzone", "virtual:019f38d7c7347e07895abefdba51d52def5f8b7e1abb36c5f5ab347c0a8c048354b36daf32f70cf5bac3e10a688515565eb3b41b7b78bc82bdaf9bbece9be01f#npm:14.3.8"],\
-          ["react-imask", "virtual:019f38d7c7347e07895abefdba51d52def5f8b7e1abb36c5f5ab347c0a8c048354b36daf32f70cf5bac3e10a688515565eb3b41b7b78bc82bdaf9bbece9be01f#npm:7.6.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/link", [\
-      ["npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-link-npm-0.3.15-4223837fd5-faa1d205f8.zip/node_modules/@dsx-react/link/",\
-        "packageDependencies": [\
-          ["@dsx-react/link", "npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-link-virtual-713cb76881/0/cache/@dsx-react-link-npm-0.3.15-4223837fd5-faa1d205f8.zip/node_modules/@dsx-react/link/",\
-        "packageDependencies": [\
-          ["@dsx-react/link", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/logo", [\
-      ["npm:0.4.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flogo%2F-%2Flogo-0.4.2.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-logo-npm-0.4.2-8209e1bf3c-ebcf4c84b2.zip/node_modules/@dsx-react/logo/",\
-        "packageDependencies": [\
-          ["@dsx-react/logo", "npm:0.4.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flogo%2F-%2Flogo-0.4.2.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.4.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flogo%2F-%2Flogo-0.4.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-logo-virtual-5729c4e47c/0/cache/@dsx-react-logo-npm-0.4.2-8209e1bf3c-ebcf4c84b2.zip/node_modules/@dsx-react/logo/",\
-        "packageDependencies": [\
-          ["@dsx-react/logo", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.4.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flogo%2F-%2Flogo-0.4.2.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/menu", [\
-      ["npm:0.6.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmenu%2F-%2Fmenu-0.6.0.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-menu-npm-0.6.0-277acbf4c9-a4c2f03184.zip/node_modules/@dsx-react/menu/",\
-        "packageDependencies": [\
-          ["@dsx-react/menu", "npm:0.6.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmenu%2F-%2Fmenu-0.6.0.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.6.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmenu%2F-%2Fmenu-0.6.0.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-menu-virtual-24f91e008f/0/cache/@dsx-react-menu-npm-0.6.0-277acbf4c9-a4c2f03184.zip/node_modules/@dsx-react/menu/",\
-        "packageDependencies": [\
-          ["@dsx-react/menu", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.6.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmenu%2F-%2Fmenu-0.6.0.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/dialog", "virtual:38e5cd888d41045a91270ccf33afe41ab2a390aec6f62515dc2b2686b8207abafc2150c260d5bfe4e8089a39ad5a06d04ea54a61da3a8deaccb46064a99d4a0a#npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/link", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz"],\
-          ["@dsx-react/provider", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.7.31::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprovider%2F-%2Fprovider-0.7.31.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@floating-ui/react", "virtual:019f38d7c7347e07895abefdba51d52def5f8b7e1abb36c5f5ab347c0a8c048354b36daf32f70cf5bac3e10a688515565eb3b41b7b78bc82bdaf9bbece9be01f#npm:0.26.28::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact%2F-%2Freact-0.26.28.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/meter", [\
-      ["npm:0.3.40::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmeter%2F-%2Fmeter-0.3.40.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-meter-npm-0.3.40-118c879fc6-afea1a6f0b.zip/node_modules/@dsx-react/meter/",\
-        "packageDependencies": [\
-          ["@dsx-react/meter", "npm:0.3.40::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmeter%2F-%2Fmeter-0.3.40.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.40::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmeter%2F-%2Fmeter-0.3.40.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-meter-virtual-c32da23193/0/cache/@dsx-react-meter-npm-0.3.40-118c879fc6-afea1a6f0b.zip/node_modules/@dsx-react/meter/",\
-        "packageDependencies": [\
-          ["@dsx-react/meter", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.40::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmeter%2F-%2Fmeter-0.3.40.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/theme", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["d3-scale", "npm:4.0.2"],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/modal", [\
-      ["npm:0.4.42::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmodal%2F-%2Fmodal-0.4.42.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-modal-npm-0.4.42-457f17c63c-2aba82af6d.zip/node_modules/@dsx-react/modal/",\
-        "packageDependencies": [\
-          ["@dsx-react/modal", "npm:0.4.42::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmodal%2F-%2Fmodal-0.4.42.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.4.42::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmodal%2F-%2Fmodal-0.4.42.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-modal-virtual-c1e9c41f7f/0/cache/@dsx-react-modal-npm-0.4.42-457f17c63c-2aba82af6d.zip/node_modules/@dsx-react/modal/",\
-        "packageDependencies": [\
-          ["@dsx-react/modal", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.4.42::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmodal%2F-%2Fmodal-0.4.42.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/dialog", "virtual:38e5cd888d41045a91270ccf33afe41ab2a390aec6f62515dc2b2686b8207abafc2150c260d5bfe4e8089a39ad5a06d04ea54a61da3a8deaccb46064a99d4a0a#npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/navbar", [\
-      ["npm:0.8.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnavbar%2F-%2Fnavbar-0.8.4.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-navbar-npm-0.8.4-64296744f0-6333c566bf.zip/node_modules/@dsx-react/navbar/",\
-        "packageDependencies": [\
-          ["@dsx-react/navbar", "npm:0.8.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnavbar%2F-%2Fnavbar-0.8.4.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.8.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnavbar%2F-%2Fnavbar-0.8.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-navbar-virtual-cc00a6888f/0/cache/@dsx-react-navbar-npm-0.8.4-64296744f0-6333c566bf.zip/node_modules/@dsx-react/navbar/",\
-        "packageDependencies": [\
-          ["@dsx-react/navbar", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.8.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnavbar%2F-%2Fnavbar-0.8.4.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/dialog", "virtual:38e5cd888d41045a91270ccf33afe41ab2a390aec6f62515dc2b2686b8207abafc2150c260d5bfe4e8089a39ad5a06d04ea54a61da3a8deaccb46064a99d4a0a#npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/inputs", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.19.11::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Finputs%2F-%2Finputs-0.19.11.tgz"],\
-          ["@dsx-react/link", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz"],\
-          ["@dsx-react/logo", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.4.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flogo%2F-%2Flogo-0.4.2.tgz"],\
-          ["@dsx-react/menu", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.6.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmenu%2F-%2Fmenu-0.6.0.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/note", [\
-      ["npm:4.0.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnote%2F-%2Fnote-4.0.2.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-note-npm-4.0.2-5ae2075e02-567dad5326.zip/node_modules/@dsx-react/note/",\
-        "packageDependencies": [\
-          ["@dsx-react/note", "npm:4.0.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnote%2F-%2Fnote-4.0.2.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:4.0.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnote%2F-%2Fnote-4.0.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-note-virtual-1ba67def85/0/cache/@dsx-react-note-npm-4.0.2-5ae2075e02-567dad5326.zip/node_modules/@dsx-react/note/",\
-        "packageDependencies": [\
-          ["@dsx-react/note", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:4.0.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnote%2F-%2Fnote-4.0.2.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/link", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/pagination", [\
-      ["npm:0.2.72::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpagination%2F-%2Fpagination-0.2.72.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-pagination-npm-0.2.72-364af1849d-50b5107aae.zip/node_modules/@dsx-react/pagination/",\
-        "packageDependencies": [\
-          ["@dsx-react/pagination", "npm:0.2.72::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpagination%2F-%2Fpagination-0.2.72.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.72::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpagination%2F-%2Fpagination-0.2.72.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-pagination-virtual-398d049fca/0/cache/@dsx-react-pagination-npm-0.2.72-364af1849d-50b5107aae.zip/node_modules/@dsx-react/pagination/",\
-        "packageDependencies": [\
-          ["@dsx-react/pagination", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.72::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpagination%2F-%2Fpagination-0.2.72.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/panel", [\
-      ["npm:0.0.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpanel%2F-%2Fpanel-0.0.16.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-panel-npm-0.0.16-81cea5c962-2716ac3fa6.zip/node_modules/@dsx-react/panel/",\
-        "packageDependencies": [\
-          ["@dsx-react/panel", "npm:0.0.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpanel%2F-%2Fpanel-0.0.16.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.0.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpanel%2F-%2Fpanel-0.0.16.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-panel-virtual-b6c062e587/0/cache/@dsx-react-panel-npm-0.0.16-81cea5c962-2716ac3fa6.zip/node_modules/@dsx-react/panel/",\
-        "packageDependencies": [\
-          ["@dsx-react/panel", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.0.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpanel%2F-%2Fpanel-0.0.16.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/dialog", "virtual:38e5cd888d41045a91270ccf33afe41ab2a390aec6f62515dc2b2686b8207abafc2150c260d5bfe4e8089a39ad5a06d04ea54a61da3a8deaccb46064a99d4a0a#npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/pill", [\
-      ["npm:0.2.10::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpill%2F-%2Fpill-0.2.10.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-pill-npm-0.2.10-3f7cfbb2e4-2e4e25b4c5.zip/node_modules/@dsx-react/pill/",\
-        "packageDependencies": [\
-          ["@dsx-react/pill", "npm:0.2.10::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpill%2F-%2Fpill-0.2.10.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.10::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpill%2F-%2Fpill-0.2.10.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-pill-virtual-8761f9daf2/0/cache/@dsx-react-pill-npm-0.2.10-3f7cfbb2e4-2e4e25b4c5.zip/node_modules/@dsx-react/pill/",\
-        "packageDependencies": [\
-          ["@dsx-react/pill", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.10::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpill%2F-%2Fpill-0.2.10.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/popover", [\
-      ["npm:0.3.74::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpopover%2F-%2Fpopover-0.3.74.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-popover-npm-0.3.74-6450bdccc7-603c3d908f.zip/node_modules/@dsx-react/popover/",\
-        "packageDependencies": [\
-          ["@dsx-react/popover", "npm:0.3.74::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpopover%2F-%2Fpopover-0.3.74.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.74::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpopover%2F-%2Fpopover-0.3.74.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-popover-virtual-4ebbe77792/0/cache/@dsx-react-popover-npm-0.3.74-6450bdccc7-603c3d908f.zip/node_modules/@dsx-react/popover/",\
-        "packageDependencies": [\
-          ["@dsx-react/popover", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.74::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpopover%2F-%2Fpopover-0.3.74.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/dialog", "virtual:38e5cd888d41045a91270ccf33afe41ab2a390aec6f62515dc2b2686b8207abafc2150c260d5bfe4e8089a39ad5a06d04ea54a61da3a8deaccb46064a99d4a0a#npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/provider", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.7.31::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprovider%2F-%2Fprovider-0.7.31.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@floating-ui/react", "virtual:019f38d7c7347e07895abefdba51d52def5f8b7e1abb36c5f5ab347c0a8c048354b36daf32f70cf5bac3e10a688515565eb3b41b7b78bc82bdaf9bbece9be01f#npm:0.26.28::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact%2F-%2Freact-0.26.28.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/progress-steps", [\
-      ["npm:0.1.30::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprogress-steps%2F-%2Fprogress-steps-0.1.30.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-progress-steps-npm-0.1.30-4b8f7e711c-74b8c359ff.zip/node_modules/@dsx-react/progress-steps/",\
-        "packageDependencies": [\
-          ["@dsx-react/progress-steps", "npm:0.1.30::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprogress-steps%2F-%2Fprogress-steps-0.1.30.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.30::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprogress-steps%2F-%2Fprogress-steps-0.1.30.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-progress-steps-virtual-dd0ca6feb8/0/cache/@dsx-react-progress-steps-npm-0.1.30-4b8f7e711c-74b8c359ff.zip/node_modules/@dsx-react/progress-steps/",\
-        "packageDependencies": [\
-          ["@dsx-react/progress-steps", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.30::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprogress-steps%2F-%2Fprogress-steps-0.1.30.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/provider", [\
-      ["npm:0.7.31::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprovider%2F-%2Fprovider-0.7.31.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-provider-npm-0.7.31-81abc0382c-0cddbfe221.zip/node_modules/@dsx-react/provider/",\
-        "packageDependencies": [\
-          ["@dsx-react/provider", "npm:0.7.31::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprovider%2F-%2Fprovider-0.7.31.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.7.31::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprovider%2F-%2Fprovider-0.7.31.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-provider-virtual-1d976d0fcd/0/cache/@dsx-react-provider-npm-0.7.31-81abc0382c-0cddbfe221.zip/node_modules/@dsx-react/provider/",\
-        "packageDependencies": [\
-          ["@dsx-react/provider", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.7.31::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprovider%2F-%2Fprovider-0.7.31.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/link", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/scrollable", [\
-      ["npm:0.1.67::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fscrollable%2F-%2Fscrollable-0.1.67.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-scrollable-npm-0.1.67-fdead13b55-cf0b2d45df.zip/node_modules/@dsx-react/scrollable/",\
-        "packageDependencies": [\
-          ["@dsx-react/scrollable", "npm:0.1.67::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fscrollable%2F-%2Fscrollable-0.1.67.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.67::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fscrollable%2F-%2Fscrollable-0.1.67.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-scrollable-virtual-5c443274bd/0/cache/@dsx-react-scrollable-npm-0.1.67-fdead13b55-cf0b2d45df.zip/node_modules/@dsx-react/scrollable/",\
-        "packageDependencies": [\
-          ["@dsx-react/scrollable", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.67::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fscrollable%2F-%2Fscrollable-0.1.67.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/segmented-control", [\
-      ["npm:0.1.68::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsegmented-control%2F-%2Fsegmented-control-0.1.68.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-segmented-control-npm-0.1.68-f1c74512e5-523ac55c8e.zip/node_modules/@dsx-react/segmented-control/",\
-        "packageDependencies": [\
-          ["@dsx-react/segmented-control", "npm:0.1.68::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsegmented-control%2F-%2Fsegmented-control-0.1.68.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.68::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsegmented-control%2F-%2Fsegmented-control-0.1.68.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-segmented-control-virtual-c3f8e905df/0/cache/@dsx-react-segmented-control-npm-0.1.68-f1c74512e5-523ac55c8e.zip/node_modules/@dsx-react/segmented-control/",\
-        "packageDependencies": [\
-          ["@dsx-react/segmented-control", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.68::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsegmented-control%2F-%2Fsegmented-control-0.1.68.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/popover", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.74::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpopover%2F-%2Fpopover-0.3.74.tgz"],\
-          ["@dsx-react/scrollable", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.67::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fscrollable%2F-%2Fscrollable-0.1.67.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/skeleton", [\
-      ["npm:0.2.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fskeleton%2F-%2Fskeleton-0.2.41.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-skeleton-npm-0.2.41-68d15b2d24-432e67ec3c.zip/node_modules/@dsx-react/skeleton/",\
-        "packageDependencies": [\
-          ["@dsx-react/skeleton", "npm:0.2.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fskeleton%2F-%2Fskeleton-0.2.41.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fskeleton%2F-%2Fskeleton-0.2.41.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-skeleton-virtual-9f9fba46ef/0/cache/@dsx-react-skeleton-npm-0.2.41-68d15b2d24-432e67ec3c.zip/node_modules/@dsx-react/skeleton/",\
-        "packageDependencies": [\
-          ["@dsx-react/skeleton", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fskeleton%2F-%2Fskeleton-0.2.41.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/theme", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/split-button", [\
-      ["npm:0.2.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsplit-button%2F-%2Fsplit-button-0.2.34.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-split-button-npm-0.2.34-4f291eb4a2-46b36f6e1f.zip/node_modules/@dsx-react/split-button/",\
-        "packageDependencies": [\
-          ["@dsx-react/split-button", "npm:0.2.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsplit-button%2F-%2Fsplit-button-0.2.34.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsplit-button%2F-%2Fsplit-button-0.2.34.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-split-button-virtual-3ead44aa39/0/cache/@dsx-react-split-button-npm-0.2.34-4f291eb4a2-46b36f6e1f.zip/node_modules/@dsx-react/split-button/",\
-        "packageDependencies": [\
-          ["@dsx-react/split-button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsplit-button%2F-%2Fsplit-button-0.2.34.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/menu", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.6.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmenu%2F-%2Fmenu-0.6.0.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/spot-illustration", [\
-      ["npm:0.2.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fspot-illustration%2F-%2Fspot-illustration-0.2.12.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-spot-illustration-npm-0.2.12-0cdcb30a24-5a838e606a.zip/node_modules/@dsx-react/spot-illustration/",\
-        "packageDependencies": [\
-          ["@dsx-react/spot-illustration", "npm:0.2.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fspot-illustration%2F-%2Fspot-illustration-0.2.12.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fspot-illustration%2F-%2Fspot-illustration-0.2.12.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-spot-illustration-virtual-73d834de4e/0/cache/@dsx-react-spot-illustration-npm-0.2.12-0cdcb30a24-5a838e606a.zip/node_modules/@dsx-react/spot-illustration/",\
-        "packageDependencies": [\
-          ["@dsx-react/spot-illustration", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fspot-illustration%2F-%2Fspot-illustration-0.2.12.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/theme", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/table", [\
-      ["npm:0.6.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftable%2F-%2Ftable-0.6.16.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-table-npm-0.6.16-5781ad8920-bcf9cdc320.zip/node_modules/@dsx-react/table/",\
-        "packageDependencies": [\
-          ["@dsx-react/table", "npm:0.6.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftable%2F-%2Ftable-0.6.16.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.6.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftable%2F-%2Ftable-0.6.16.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-table-virtual-c9b8604e33/0/cache/@dsx-react-table-npm-0.6.16-5781ad8920-bcf9cdc320.zip/node_modules/@dsx-react/table/",\
-        "packageDependencies": [\
-          ["@dsx-react/table", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.6.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftable%2F-%2Ftable-0.6.16.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/inputs", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.19.11::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Finputs%2F-%2Finputs-0.19.11.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/theme", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@tanstack/react-table", "virtual:c9b8604e33fc578a270b8c4f5139c7786fee87111023281e3a13ff171c9c4d74f3f6dc418129267c2d5c4bbca3658549ac1756937e84d51f5f9fbdd384285690#npm:8.21.3::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540tanstack%2Freact-table%2F-%2Freact-table-8.21.3.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/tabs", [\
-      ["npm:0.2.81::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftabs%2F-%2Ftabs-0.2.81.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-tabs-npm-0.2.81-d72e25ba49-e2d791c546.zip/node_modules/@dsx-react/tabs/",\
-        "packageDependencies": [\
-          ["@dsx-react/tabs", "npm:0.2.81::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftabs%2F-%2Ftabs-0.2.81.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.81::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftabs%2F-%2Ftabs-0.2.81.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-tabs-virtual-b959ad99eb/0/cache/@dsx-react-tabs-npm-0.2.81-d72e25ba49-e2d791c546.zip/node_modules/@dsx-react/tabs/",\
-        "packageDependencies": [\
-          ["@dsx-react/tabs", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.81::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftabs%2F-%2Ftabs-0.2.81.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/menu", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.6.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmenu%2F-%2Fmenu-0.6.0.tgz"],\
-          ["@dsx-react/scrollable", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.67::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fscrollable%2F-%2Fscrollable-0.1.67.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/text", [\
-      ["npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-text-npm-0.3.54-4c93432232-744fcd2b2b.zip/node_modules/@dsx-react/text/",\
-        "packageDependencies": [\
-          ["@dsx-react/text", "npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-text-virtual-e5830a76e4/0/cache/@dsx-react-text-npm-0.3.54-4c93432232-744fcd2b2b.zip/node_modules/@dsx-react/text/",\
-        "packageDependencies": [\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/skeleton", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fskeleton%2F-%2Fskeleton-0.2.41.tgz"],\
-          ["@dsx-react/theme", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/theme", [\
-      ["npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-theme-npm-0.3.37-cf0572f60d-812e32214c.zip/node_modules/@dsx-react/theme/",\
-        "packageDependencies": [\
-          ["@dsx-react/theme", "npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-theme-virtual-de51cc632b/0/cache/@dsx-react-theme-npm-0.3.37-cf0572f60d-812e32214c.zip/node_modules/@dsx-react/theme/",\
-        "packageDependencies": [\
-          ["@dsx-react/theme", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/toast", [\
-      ["npm:0.2.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftoast%2F-%2Ftoast-0.2.2.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-toast-npm-0.2.2-54d1ba45d2-1d6bd5df1b.zip/node_modules/@dsx-react/toast/",\
-        "packageDependencies": [\
-          ["@dsx-react/toast", "npm:0.2.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftoast%2F-%2Ftoast-0.2.2.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftoast%2F-%2Ftoast-0.2.2.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-toast-virtual-b0851d9f96/0/cache/@dsx-react-toast-npm-0.2.2-54d1ba45d2-1d6bd5df1b.zip/node_modules/@dsx-react/toast/",\
-        "packageDependencies": [\
-          ["@dsx-react/toast", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftoast%2F-%2Ftoast-0.2.2.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@dsx-react/note", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:4.0.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnote%2F-%2Fnote-4.0.2.tgz"],\
-          ["@dsx-react/provider", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.7.31::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprovider%2F-%2Fprovider-0.7.31.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"],\
-          ["react-toastify", "virtual:b0851d9f9609fd0541a31a456e6935fd39372a0750f06dd89cfd393ddfd9465660cd1c6c8577a02a7537f7f92359727c7e28349baf92aef2ca4c59210eaee679#npm:9.1.3"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx-react/util", [\
-      ["npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-util-npm-0.5.1-a2900240d5-44fd72e36f.zip/node_modules/@dsx-react/util/",\
-        "packageDependencies": [\
-          ["@dsx-react/util", "npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-util-virtual-8df39c3d1b/0/cache/@dsx-react-util-npm-0.5.1-a2900240d5-44fd72e36f.zip/node_modules/@dsx-react/util/",\
-        "packageDependencies": [\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@babel/runtime-corejs3", "npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["clsx", "npm:2.1.1"],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"],\
-          ["use-resize-observer", "virtual:8df39c3d1b5c39db2c0aa1b01bbf90e46fe3107403da229f0ad42dfe9a78d5036d53d5089facf70829a975f557cc18986438b479e11ca889059be191b6703b2f#npm:9.1.0"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@dsx/react", [\
-      ["npm:0.39.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.39.4.tgz", {\
-        "packageLocation": "./.yarn/cache/@dsx-react-npm-0.39.4-bd4869b06e-2529dbc2a2.zip/node_modules/@dsx/react/",\
-        "packageDependencies": [\
-          ["@dsx/react", "npm:0.39.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.39.4.tgz"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:0.39.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.39.4.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@dsx-react-virtual-3921a4f4b1/0/cache/@dsx-react-npm-0.39.4-bd4869b06e-2529dbc2a2.zip/node_modules/@dsx/react/",\
-        "packageDependencies": [\
-          ["@dsx/react", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:0.39.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.39.4.tgz"],\
-          ["@dsx-react/address", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.27::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Faddress%2F-%2Faddress-0.3.27.tgz"],\
-          ["@dsx-react/banner-carousel", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.50::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbanner-carousel%2F-%2Fbanner-carousel-0.3.50.tgz"],\
-          ["@dsx-react/breadcrumbs", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbreadcrumbs%2F-%2Fbreadcrumbs-0.1.34.tgz"],\
-          ["@dsx-react/button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"],\
-          ["@dsx-react/card", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.8::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard%2F-%2Fcard-0.3.8.tgz"],\
-          ["@dsx-react/card-carousel", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.70::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard-carousel%2F-%2Fcard-carousel-0.1.70.tgz"],\
-          ["@dsx-react/chip", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.4.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fchip%2F-%2Fchip-0.4.4.tgz"],\
-          ["@dsx-react/cross-matrix", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.55::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcross-matrix%2F-%2Fcross-matrix-0.2.55.tgz"],\
-          ["@dsx-react/gallery", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fgallery%2F-%2Fgallery-0.3.41.tgz"],\
-          ["@dsx-react/i18n", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"],\
-          ["@dsx-react/icon", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"],\
-          ["@dsx-react/image", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.58::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fimage%2F-%2Fimage-0.2.58.tgz"],\
-          ["@dsx-react/inputs", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.19.11::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Finputs%2F-%2Finputs-0.19.11.tgz"],\
-          ["@dsx-react/link", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz"],\
-          ["@dsx-react/logo", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.4.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flogo%2F-%2Flogo-0.4.2.tgz"],\
-          ["@dsx-react/menu", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.6.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmenu%2F-%2Fmenu-0.6.0.tgz"],\
-          ["@dsx-react/meter", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.40::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmeter%2F-%2Fmeter-0.3.40.tgz"],\
-          ["@dsx-react/modal", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.4.42::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmodal%2F-%2Fmodal-0.4.42.tgz"],\
-          ["@dsx-react/navbar", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.8.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnavbar%2F-%2Fnavbar-0.8.4.tgz"],\
-          ["@dsx-react/note", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:4.0.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnote%2F-%2Fnote-4.0.2.tgz"],\
-          ["@dsx-react/pagination", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.72::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpagination%2F-%2Fpagination-0.2.72.tgz"],\
-          ["@dsx-react/panel", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.0.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpanel%2F-%2Fpanel-0.0.16.tgz"],\
-          ["@dsx-react/pill", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.10::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpill%2F-%2Fpill-0.2.10.tgz"],\
-          ["@dsx-react/popover", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.74::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpopover%2F-%2Fpopover-0.3.74.tgz"],\
-          ["@dsx-react/progress-steps", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.30::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprogress-steps%2F-%2Fprogress-steps-0.1.30.tgz"],\
-          ["@dsx-react/provider", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.7.31::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprovider%2F-%2Fprovider-0.7.31.tgz"],\
-          ["@dsx-react/scrollable", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.67::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fscrollable%2F-%2Fscrollable-0.1.67.tgz"],\
-          ["@dsx-react/segmented-control", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.1.68::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsegmented-control%2F-%2Fsegmented-control-0.1.68.tgz"],\
-          ["@dsx-react/skeleton", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fskeleton%2F-%2Fskeleton-0.2.41.tgz"],\
-          ["@dsx-react/split-button", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsplit-button%2F-%2Fsplit-button-0.2.34.tgz"],\
-          ["@dsx-react/spot-illustration", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fspot-illustration%2F-%2Fspot-illustration-0.2.12.tgz"],\
-          ["@dsx-react/table", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.6.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftable%2F-%2Ftable-0.6.16.tgz"],\
-          ["@dsx-react/tabs", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.81::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftabs%2F-%2Ftabs-0.2.81.tgz"],\
-          ["@dsx-react/text", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"],\
-          ["@dsx-react/theme", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"],\
-          ["@dsx-react/toast", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.2.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftoast%2F-%2Ftoast-0.2.2.tgz"],\
-          ["@dsx-react/util", "virtual:3921a4f4b13e7655cad24cff543a8fabd1728b18f4be2fe6111c32cb0f102fa64611353ab6f78708f97fa389b4f93ff41bade230f07f2ca8add40e7c7b57d7fc#npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"],\
-          ["@types/react", null],\
-          ["@types/react-dom", null],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:18.3.1"]\
+          ["react-dropzone", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:14.3.8"],\
+          ["react-imask", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:7.6.1"],\
+          ["react-slick", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:0.29.0"],\
+          ["react-toastify", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:9.1.3"],\
+          ["temporal-polyfill", "npm:0.2.5"],\
+          ["use-resize-observer", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:9.1.0"]\
         ],\
         "packagePeers": [\
           "@types/react-dom",\
@@ -1799,11 +596,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:019f38d7c7347e07895abefdba51d52def5f8b7e1abb36c5f5ab347c0a8c048354b36daf32f70cf5bac3e10a688515565eb3b41b7b78bc82bdaf9bbece9be01f#npm:0.26.28::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact%2F-%2Freact-0.26.28.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@floating-ui-react-virtual-a940aab698/0/cache/@floating-ui-react-npm-0.26.28-87f1dea9bd-a42df129e1.zip/node_modules/@floating-ui/react/",\
+      ["virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:0.26.28::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact%2F-%2Freact-0.26.28.tgz", {\
+        "packageLocation": "./.yarn/__virtual__/@floating-ui-react-virtual-af76211557/0/cache/@floating-ui-react-npm-0.26.28-87f1dea9bd-a42df129e1.zip/node_modules/@floating-ui/react/",\
         "packageDependencies": [\
-          ["@floating-ui/react", "virtual:019f38d7c7347e07895abefdba51d52def5f8b7e1abb36c5f5ab347c0a8c048354b36daf32f70cf5bac3e10a688515565eb3b41b7b78bc82bdaf9bbece9be01f#npm:0.26.28::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact%2F-%2Freact-0.26.28.tgz"],\
-          ["@floating-ui/react-dom", "virtual:a940aab698c86686c69cbdb6d23681b1cad80c22f73341f6e212b7ea1a62bf26c8079e98c0d645b4401c42c553e89b675e8d09739085743495a5d52d0539eab4#npm:2.1.5::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact-dom%2F-%2Freact-dom-2.1.5.tgz"],\
+          ["@floating-ui/react", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:0.26.28::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact%2F-%2Freact-0.26.28.tgz"],\
+          ["@floating-ui/react-dom", "virtual:af76211557c3e8e72647758b0b9fcf68afe7766fe87e0f41f950c9a8da2c791cf54966d71247be9698e9c1e866bfe57c7b1276c702df95df3398ef573132668b#npm:2.1.5::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact-dom%2F-%2Freact-dom-2.1.5.tgz"],\
           ["@floating-ui/utils", "npm:0.2.10::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Futils%2F-%2Futils-0.2.10.tgz"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
@@ -1828,10 +625,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a940aab698c86686c69cbdb6d23681b1cad80c22f73341f6e212b7ea1a62bf26c8079e98c0d645b4401c42c553e89b675e8d09739085743495a5d52d0539eab4#npm:2.1.5::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact-dom%2F-%2Freact-dom-2.1.5.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@floating-ui-react-dom-virtual-d402e7c0d3/0/cache/@floating-ui-react-dom-npm-2.1.5-fe98a999f3-2dc9571845.zip/node_modules/@floating-ui/react-dom/",\
+      ["virtual:af76211557c3e8e72647758b0b9fcf68afe7766fe87e0f41f950c9a8da2c791cf54966d71247be9698e9c1e866bfe57c7b1276c702df95df3398ef573132668b#npm:2.1.5::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact-dom%2F-%2Freact-dom-2.1.5.tgz", {\
+        "packageLocation": "./.yarn/__virtual__/@floating-ui-react-dom-virtual-6f3ab3cf40/0/cache/@floating-ui-react-dom-npm-2.1.5-fe98a999f3-2dc9571845.zip/node_modules/@floating-ui/react-dom/",\
         "packageDependencies": [\
-          ["@floating-ui/react-dom", "virtual:a940aab698c86686c69cbdb6d23681b1cad80c22f73341f6e212b7ea1a62bf26c8079e98c0d645b4401c42c553e89b675e8d09739085743495a5d52d0539eab4#npm:2.1.5::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact-dom%2F-%2Freact-dom-2.1.5.tgz"],\
+          ["@floating-ui/react-dom", "virtual:af76211557c3e8e72647758b0b9fcf68afe7766fe87e0f41f950c9a8da2c791cf54966d71247be9698e9c1e866bfe57c7b1276c702df95df3398ef573132668b#npm:2.1.5::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Freact-dom%2F-%2Freact-dom-2.1.5.tgz"],\
           ["@floating-ui/dom", "npm:1.7.3::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540floating-ui%2Fdom%2F-%2Fdom-1.7.3.tgz"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
@@ -2225,10 +1022,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:c9b8604e33fc578a270b8c4f5139c7786fee87111023281e3a13ff171c9c4d74f3f6dc418129267c2d5c4bbca3658549ac1756937e84d51f5f9fbdd384285690#npm:8.21.3::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540tanstack%2Freact-table%2F-%2Freact-table-8.21.3.tgz", {\
-        "packageLocation": "./.yarn/__virtual__/@tanstack-react-table-virtual-2cbb45987d/0/cache/@tanstack-react-table-npm-8.21.3-c1c6bb0884-85d1d0fcb6.zip/node_modules/@tanstack/react-table/",\
+      ["virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:8.21.3::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540tanstack%2Freact-table%2F-%2Freact-table-8.21.3.tgz", {\
+        "packageLocation": "./.yarn/__virtual__/@tanstack-react-table-virtual-fb3ce2b4af/0/cache/@tanstack-react-table-npm-8.21.3-c1c6bb0884-85d1d0fcb6.zip/node_modules/@tanstack/react-table/",\
         "packageDependencies": [\
-          ["@tanstack/react-table", "virtual:c9b8604e33fc578a270b8c4f5139c7786fee87111023281e3a13ff171c9c4d74f3f6dc418129267c2d5c4bbca3658549ac1756937e84d51f5f9fbdd384285690#npm:8.21.3::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540tanstack%2Freact-table%2F-%2Freact-table-8.21.3.tgz"],\
+          ["@tanstack/react-table", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:8.21.3::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540tanstack%2Freact-table%2F-%2Freact-table-8.21.3.tgz"],\
           ["@tanstack/table-core", "npm:8.21.3::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540tanstack%2Ftable-core%2F-%2Ftable-core-8.21.3.tgz"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
@@ -2298,11 +1095,50 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/d3-scale", [\
+      ["npm:4.0.9::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Fd3-scale%2F-%2Fd3-scale-4.0.9.tgz", {\
+        "packageLocation": "./.yarn/cache/@types-d3-scale-npm-4.0.9-62c1352c2b-4ac44233c0.zip/node_modules/@types/d3-scale/",\
+        "packageDependencies": [\
+          ["@types/d3-scale", "npm:4.0.9::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Fd3-scale%2F-%2Fd3-scale-4.0.9.tgz"],\
+          ["@types/d3-time", "npm:3.0.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Fd3-time%2F-%2Fd3-time-3.0.4.tgz"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/d3-time", [\
+      ["npm:3.0.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Fd3-time%2F-%2Fd3-time-3.0.4.tgz", {\
+        "packageLocation": "./.yarn/cache/@types-d3-time-npm-3.0.4-53bb17b9a1-6d9e2255d6.zip/node_modules/@types/d3-time/",\
+        "packageDependencies": [\
+          ["@types/d3-time", "npm:3.0.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Fd3-time%2F-%2Fd3-time-3.0.4.tgz"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/estree", [\
       ["npm:1.0.8::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Festree%2F-%2Festree-1.0.8.tgz", {\
         "packageLocation": "./.yarn/cache/@types-estree-npm-1.0.8-9de5c5ed49-39d34d1afa.zip/node_modules/@types/estree/",\
         "packageDependencies": [\
           ["@types/estree", "npm:1.0.8::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Festree%2F-%2Festree-1.0.8.tgz"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/react", [\
+      ["npm:19.1.9::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Freact%2F-%2Freact-19.1.9.tgz", {\
+        "packageLocation": "./.yarn/cache/@types-react-npm-19.1.9-ba11d7d44a-b418da4aaf.zip/node_modules/@types/react/",\
+        "packageDependencies": [\
+          ["@types/react", "npm:19.1.9::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Freact%2F-%2Freact-19.1.9.tgz"],\
+          ["csstype", "npm:3.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/react-slick", [\
+      ["npm:0.23.13::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Freact-slick%2F-%2Freact-slick-0.23.13.tgz", {\
+        "packageLocation": "./.yarn/cache/@types-react-slick-npm-0.23.13-3abce193b5-35dd72dfba.zip/node_modules/@types/react-slick/",\
+        "packageDependencies": [\
+          ["@types/react-slick", "npm:0.23.13::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Freact-slick%2F-%2Freact-slick-0.23.13.tgz"],\
+          ["@types/react", "npm:19.1.9::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Freact%2F-%2Freact-19.1.9.tgz"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2448,15 +1284,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["calendarize", [\
-      ["npm:1.1.1", {\
-        "packageLocation": "./.yarn/cache/calendarize-npm-1.1.1-dda555d30d-b2ab535961.zip/node_modules/calendarize/",\
-        "packageDependencies": [\
-          ["calendarize", "npm:1.1.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["caniuse-lite", [\
       ["npm:1.0.30001731", {\
         "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001731-7763dce794-d8cddf817d.zip/node_modules/caniuse-lite/",\
@@ -2545,6 +1372,15 @@ const RAW_RUNTIME_STATE =
           ["path-key", "npm:3.1.1"],\
           ["shebang-command", "npm:2.0.0"],\
           ["which", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["csstype", [\
+      ["npm:3.1.3", {\
+        "packageLocation": "./.yarn/cache/csstype-npm-3.1.3-e9a1c85013-80c089d6f7.zip/node_modules/csstype/",\
+        "packageDependencies": [\
+          ["csstype", "npm:3.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2658,7 +1494,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["dsx-product-showcase", "workspace:."],\
-          ["@dsx/react", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:0.39.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.39.4.tgz"],\
+          ["@dsx/react", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:0.42.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.42.0.tgz"],\
           ["@vitejs/plugin-react", "virtual:558a00ac4c9a5df1f8edc1f8939f4bcd4a33d83f9df5f5386f238c34b6537ccc0fcd3be207272d9dff624d083f3db3de06410967d2cebd29a6598936862148db#npm:4.7.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540vitejs%2Fplugin-react%2F-%2Fplugin-react-4.7.0.tgz"],\
           ["jquery", "npm:3.7.1"],\
           ["react", "npm:18.3.1"],\
@@ -3442,36 +2278,14 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:019f38d7c7347e07895abefdba51d52def5f8b7e1abb36c5f5ab347c0a8c048354b36daf32f70cf5bac3e10a688515565eb3b41b7b78bc82bdaf9bbece9be01f#npm:14.3.8", {\
-        "packageLocation": "./.yarn/__virtual__/react-dropzone-virtual-306e4bc852/0/cache/react-dropzone-npm-14.3.8-ec58b8a3dc-e17b183278.zip/node_modules/react-dropzone/",\
+      ["virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:14.3.8", {\
+        "packageLocation": "./.yarn/__virtual__/react-dropzone-virtual-3c78c152fa/0/cache/react-dropzone-npm-14.3.8-ec58b8a3dc-e17b183278.zip/node_modules/react-dropzone/",\
         "packageDependencies": [\
-          ["react-dropzone", "virtual:019f38d7c7347e07895abefdba51d52def5f8b7e1abb36c5f5ab347c0a8c048354b36daf32f70cf5bac3e10a688515565eb3b41b7b78bc82bdaf9bbece9be01f#npm:14.3.8"],\
+          ["react-dropzone", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:14.3.8"],\
           ["@types/react", null],\
           ["attr-accept", "npm:2.2.5"],\
           ["file-selector", "npm:2.1.2"],\
           ["prop-types", "npm:15.8.1"],\
-          ["react", "npm:18.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/react",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["react-icons", [\
-      ["npm:5.5.0", {\
-        "packageLocation": "./.yarn/cache/react-icons-npm-5.5.0-906730a3cf-a24309bfc9.zip/node_modules/react-icons/",\
-        "packageDependencies": [\
-          ["react-icons", "npm:5.5.0"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:4e6da260d117687977f55482a8802a44777a81abd2caf8fad57fcffe2c390910a7b79245065e7acf653bda4660aaa84c85ad049f7920196915c3d9dbb04a2f31#npm:5.5.0", {\
-        "packageLocation": "./.yarn/__virtual__/react-icons-virtual-35d222838e/0/cache/react-icons-npm-5.5.0-906730a3cf-a24309bfc9.zip/node_modules/react-icons/",\
-        "packageDependencies": [\
-          ["react-icons", "virtual:4e6da260d117687977f55482a8802a44777a81abd2caf8fad57fcffe2c390910a7b79245065e7acf653bda4660aaa84c85ad049f7920196915c3d9dbb04a2f31#npm:5.5.0"],\
-          ["@types/react", null],\
           ["react", "npm:18.3.1"]\
         ],\
         "packagePeers": [\
@@ -3489,10 +2303,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:019f38d7c7347e07895abefdba51d52def5f8b7e1abb36c5f5ab347c0a8c048354b36daf32f70cf5bac3e10a688515565eb3b41b7b78bc82bdaf9bbece9be01f#npm:7.6.1", {\
-        "packageLocation": "./.yarn/__virtual__/react-imask-virtual-4c52777ab2/0/cache/react-imask-npm-7.6.1-dec5ff39de-48b8c234fb.zip/node_modules/react-imask/",\
+      ["virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:7.6.1", {\
+        "packageLocation": "./.yarn/__virtual__/react-imask-virtual-22a85e1b53/0/cache/react-imask-npm-7.6.1-dec5ff39de-48b8c234fb.zip/node_modules/react-imask/",\
         "packageDependencies": [\
-          ["react-imask", "virtual:019f38d7c7347e07895abefdba51d52def5f8b7e1abb36c5f5ab347c0a8c048354b36daf32f70cf5bac3e10a688515565eb3b41b7b78bc82bdaf9bbece9be01f#npm:7.6.1"],\
+          ["react-imask", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:7.6.1"],\
           ["@types/react", null],\
           ["imask", "npm:7.6.1"],\
           ["prop-types", "npm:15.8.1"],\
@@ -3562,10 +2376,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:b0851d9f9609fd0541a31a456e6935fd39372a0750f06dd89cfd393ddfd9465660cd1c6c8577a02a7537f7f92359727c7e28349baf92aef2ca4c59210eaee679#npm:9.1.3", {\
-        "packageLocation": "./.yarn/__virtual__/react-toastify-virtual-4064279cdc/0/cache/react-toastify-npm-9.1.3-2f82dd0b41-51de1e51e9.zip/node_modules/react-toastify/",\
+      ["virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:9.1.3", {\
+        "packageLocation": "./.yarn/__virtual__/react-toastify-virtual-ef937e39c8/0/cache/react-toastify-npm-9.1.3-2f82dd0b41-51de1e51e9.zip/node_modules/react-toastify/",\
         "packageDependencies": [\
-          ["react-toastify", "virtual:b0851d9f9609fd0541a31a456e6935fd39372a0750f06dd89cfd393ddfd9465660cd1c6c8577a02a7537f7f92359727c7e28349baf92aef2ca4c59210eaee679#npm:9.1.3"],\
+          ["react-toastify", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:9.1.3"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
           ["clsx", "npm:1.2.1"],\
@@ -3848,6 +2662,25 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["temporal-polyfill", [\
+      ["npm:0.2.5", {\
+        "packageLocation": "./.yarn/cache/temporal-polyfill-npm-0.2.5-44d1689256-f2e828b158.zip/node_modules/temporal-polyfill/",\
+        "packageDependencies": [\
+          ["temporal-polyfill", "npm:0.2.5"],\
+          ["temporal-spec", "npm:0.2.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["temporal-spec", [\
+      ["npm:0.2.4", {\
+        "packageLocation": "./.yarn/cache/temporal-spec-npm-0.2.4-d44e7b1353-89dec88dcd.zip/node_modules/temporal-spec/",\
+        "packageDependencies": [\
+          ["temporal-spec", "npm:0.2.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["tinyglobby", [\
       ["npm:0.2.14", {\
         "packageLocation": "./.yarn/cache/tinyglobby-npm-0.2.14-d4e4bcf80e-f789ed6c92.zip/node_modules/tinyglobby/",\
@@ -3920,10 +2753,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:8df39c3d1b5c39db2c0aa1b01bbf90e46fe3107403da229f0ad42dfe9a78d5036d53d5089facf70829a975f557cc18986438b479e11ca889059be191b6703b2f#npm:9.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/use-resize-observer-virtual-1db50057b6/0/cache/use-resize-observer-npm-9.1.0-ee1d268d88-6ccdeb09fe.zip/node_modules/use-resize-observer/",\
+      ["virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:9.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/use-resize-observer-virtual-296bec08c9/0/cache/use-resize-observer-npm-9.1.0-ee1d268d88-6ccdeb09fe.zip/node_modules/use-resize-observer/",\
         "packageDependencies": [\
-          ["use-resize-observer", "virtual:8df39c3d1b5c39db2c0aa1b01bbf90e46fe3107403da229f0ad42dfe9a78d5036d53d5089facf70829a975f557cc18986438b479e11ca889059be191b6703b2f#npm:9.1.0"],\
+          ["use-resize-observer", "virtual:efbd9bda746b252bc4e0548d90d56b9b297094756f8bb93369b39671577ae1a743737351dd0b66fbc919ecf52b0a1508d61986063aec8f18cb0039a572c2642c#npm:9.1.0"],\
           ["@juggle/resize-observer", "npm:3.4.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540juggle%2Fresize-observer%2F-%2Fresize-observer-3.4.0.tgz"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\

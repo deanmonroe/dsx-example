@@ -14,7 +14,7 @@ const featuredProducts = [
   {
     id: 1,
     name: "Premium Headphones",
-    description: "High-quality wireless headphones with noise cancellation",
+    description: "Wireless headphones with noise cancellation",
     price: 249.99,
     image: "https://placehold.co/600x400/e2e8f0/1e293b?text=Headphones",
     featured: true,

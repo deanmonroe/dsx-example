@@ -183,7 +183,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime-corejs3@npm:^7.23.1, @babel/runtime-corejs3@npm:^7.24.4":
+"@babel/runtime-corejs3@npm:^7.24.4, @babel/runtime-corejs3@npm:^7.26.7":
   version: 7.28.2
   resolution: "@babel/runtime-corejs3@npm:7.28.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540babel%2Fruntime-corejs3%2F-%2Fruntime-corejs3-7.28.2.tgz"
   dependencies:
@@ -228,661 +228,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dsx-react/address@npm:^0.3.27":
-  version: 0.3.27
-  resolution: "@dsx-react/address@npm:0.3.27::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Faddress%2F-%2Faddress-0.3.27.tgz"
+"@dsx/react@npm:0.42.0":
+  version: 0.42.0
+  resolution: "@dsx/react@npm:0.42.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.42.0.tgz"
   dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/b3a00b08863f6a5ace0d589af131e3bbd75722430966e2de0a96d2c4dfcc724a465e67ad903b18b4afd76eb9deafa0ec0c80903aefd1b2480a17adad274343e5
-  languageName: node
-  linkType: hard
-
-"@dsx-react/banner-carousel@npm:^0.3.50":
-  version: 0.3.50
-  resolution: "@dsx-react/banner-carousel@npm:0.3.50::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbanner-carousel%2F-%2Fbanner-carousel-0.3.50.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/util": "npm:^0.5.1"
-    react-slick: "npm:^0.29.0"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/4cc87c16083591349a53538477f11d7e23ddc47c79c618d77ed33eea7c792f44965839317254f7dc6f61ec6fb068d5a36e159d789ff67db13a9e40220f63e9a5
-  languageName: node
-  linkType: hard
-
-"@dsx-react/breadcrumbs@npm:^0.1.34":
-  version: 0.1.34
-  resolution: "@dsx-react/breadcrumbs@npm:0.1.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbreadcrumbs%2F-%2Fbreadcrumbs-0.1.34.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/ea4093f94dba3cc561ac798deb1df92a8c8a24c4ab5fd2d70038e254899c77339677d3816cd7bb57194d65b6c4a8fed91116f05be175a28b10c636a79a4bc34e
-  languageName: node
-  linkType: hard
-
-"@dsx-react/button@npm:^0.3.25":
-  version: 0.3.25
-  resolution: "@dsx-react/button@npm:0.3.25::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fbutton%2F-%2Fbutton-0.3.25.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/link": "npm:^0.3.15"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/310a448e315391f9493c8a8adcc84ce9412a39757bf5ff6e1941c9876ae39e2933f3a840cb934165b76096dfee2aed2bed545d668331ba3d6a1c945da383a9c5
-  languageName: node
-  linkType: hard
-
-"@dsx-react/card-carousel@npm:^0.1.70":
-  version: 0.1.70
-  resolution: "@dsx-react/card-carousel@npm:0.1.70::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard-carousel%2F-%2Fcard-carousel-0.1.70.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/util": "npm:^0.5.1"
-    react-slick: "npm:^0.29.0"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/a1373ee324ecd7ed6d3f5eb7643e73eb275b7de353299e02641c4ed8f98d2a72c50f83455fd562dc5d76111f4867032ed64a86bf4cee2d233d2b739163ad8abb
-  languageName: node
-  linkType: hard
-
-"@dsx-react/card@npm:^0.3.8":
-  version: 0.3.8
-  resolution: "@dsx-react/card@npm:0.3.8::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcard%2F-%2Fcard-0.3.8.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/link": "npm:^0.3.15"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/b0ae2b4058bbe18916cfa0e0145d13f1986d40e818804c727f83b5825782ca85101aef1887c93b171734d9c5488fb9c6b27ce51f12485d0f3d0c223b1568699b
-  languageName: node
-  linkType: hard
-
-"@dsx-react/chip@npm:^0.4.4":
-  version: 0.4.4
-  resolution: "@dsx-react/chip@npm:0.4.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fchip%2F-%2Fchip-0.4.4.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/a9a1de9cc283d061602659cb07ccefa93c2d56b2a55d60779cc15c5afbd91341338822a5d3d4eebdd312ead6f386ce64bc6a27bfa169f316bd557918efd2b173
-  languageName: node
-  linkType: hard
-
-"@dsx-react/cross-matrix@npm:^0.2.55":
-  version: 0.2.55
-  resolution: "@dsx-react/cross-matrix@npm:0.2.55::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fcross-matrix%2F-%2Fcross-matrix-0.2.55.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/skeleton": "npm:^0.2.41"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/theme": "npm:^0.3.37"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/aa7b7d668cd3aef6af37a18eea7bd58b53dfd3195247eab7445600aff6c94c71e92a5216e25987993111e6386155f4f36c7c02969586759075543335fca5bd75
-  languageName: node
-  linkType: hard
-
-"@dsx-react/dialog@npm:^0.1.12":
-  version: 0.1.12
-  resolution: "@dsx-react/dialog@npm:0.1.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fdialog%2F-%2Fdialog-0.1.12.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/provider": "npm:^0.7.31"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/02028ef1592919c48f8ef8a495f60474237a85f735a7a73f94ca43f6965f89179aa6621f776a8725e095b4c39c424f3410f6cca2b0868a8eaf91c58223e47901
-  languageName: node
-  linkType: hard
-
-"@dsx-react/gallery@npm:^0.3.41":
-  version: 0.3.41
-  resolution: "@dsx-react/gallery@npm:0.3.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fgallery%2F-%2Fgallery-0.3.41.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/dialog": "npm:^0.1.12"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/image": "npm:^0.2.58"
-    "@dsx-react/scrollable": "npm:^0.1.67"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/theme": "npm:^0.3.37"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/963eb1650ab9018ba56beb775d17d752a4ea89e8b0d57c88e4f4cf01dc24913e5daa0b7672fd42f0b5a2a468c62361d098cbbea7e5cffb872d4a39d9fe8e9abd
-  languageName: node
-  linkType: hard
-
-"@dsx-react/i18n@npm:^0.2.33":
-  version: 0.2.33
-  resolution: "@dsx-react/i18n@npm:0.2.33::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fi18n%2F-%2Fi18n-0.2.33.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/util": "npm:^0.5.1"
-    intl-messageformat: "npm:^10.5.3"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/460c97579c76038938c749fe3577757c93333e60b567104b6692b8dbbc225c3ce08f15feb3dd74e3ee8bae18a252a8e61aef860aeda4220fd952b2285bdff4b9
-  languageName: node
-  linkType: hard
-
-"@dsx-react/icon@npm:^0.3.48":
-  version: 0.3.48
-  resolution: "@dsx-react/icon@npm:0.3.48::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ficon%2F-%2Ficon-0.3.48.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/theme": "npm:^0.3.37"
-    "@dsx-react/util": "npm:^0.5.1"
-    react-icons: "npm:^5.1.0"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/f0e649662338d29114fe1b558cea16246ab354443d7a38e960db4ad2b6f87f5d301d085b0c58bf0c479f61aa00fbee18043e254686933cdcdb6782e6e8daf691
-  languageName: node
-  linkType: hard
-
-"@dsx-react/image@npm:^0.2.58":
-  version: 0.2.58
-  resolution: "@dsx-react/image@npm:0.2.58::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fimage%2F-%2Fimage-0.2.58.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/2efc99dec045486e0b515c25952c9ea2cedf851d71cc5d3f01b0cf1f5bba4ae7e8fe38ad481d466de61ed3b3eec2aa278aa60fb753b550bb5bf7ccca0e1780ef
-  languageName: node
-  linkType: hard
-
-"@dsx-react/inputs@npm:^0.19.11":
-  version: 0.19.11
-  resolution: "@dsx-react/inputs@npm:0.19.11::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Finputs%2F-%2Finputs-0.19.11.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/dialog": "npm:^0.1.12"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/menu": "npm:^0.6.0"
-    "@dsx-react/provider": "npm:^0.7.31"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/util": "npm:^0.5.1"
+    "@babel/runtime-corejs3": "npm:^7.26.7"
     "@floating-ui/react": "npm:^0.26.8"
-    calendarize: "npm:^1.1.1"
+    "@tanstack/react-table": "npm:^8.17.3"
+    "@types/d3-scale": "npm:^4.0.9"
+    "@types/react-slick": "npm:^0.23.13"
+    clsx: "npm:^2.0.0"
+    d3-scale: "npm:^4.0.2"
+    intl-messageformat: "npm:^10.5.3"
     react-dropzone: "npm:^14.2.3"
     react-imask: "npm:^7.6.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/416fd36d137eb8dfd0e0273d56db048602d1179f11e1f8a42029f51a75671b8d66ab56c5d0a374c06b18f9268fee18674f1317558ae1e6727cce122446eb524f
-  languageName: node
-  linkType: hard
-
-"@dsx-react/link@npm:^0.3.15":
-  version: 0.3.15
-  resolution: "@dsx-react/link@npm:0.3.15::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flink%2F-%2Flink-0.3.15.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/faa1d205f89df43f9f9853930304a1a2d84e4894a16e29fae31b8981d65f55d9426e7ca5b9c5a4f47ed1d03739fdf36afbf0a46382242408f321f9fb58131ad3
-  languageName: node
-  linkType: hard
-
-"@dsx-react/logo@npm:^0.4.2":
-  version: 0.4.2
-  resolution: "@dsx-react/logo@npm:0.4.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Flogo%2F-%2Flogo-0.4.2.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/ebcf4c84b2985403b89c48022b6f4fafb3a02698a71ac633a761d12d54acd6463a9664c4078da73c9f82048b8023e464959a96c0725e4ca7118898736b14483c
-  languageName: node
-  linkType: hard
-
-"@dsx-react/menu@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "@dsx-react/menu@npm:0.6.0::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmenu%2F-%2Fmenu-0.6.0.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/dialog": "npm:^0.1.12"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/link": "npm:^0.3.15"
-    "@dsx-react/provider": "npm:^0.7.31"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/util": "npm:^0.5.1"
-    "@floating-ui/react": "npm:^0.26.8"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/a4c2f03184fa89a0cd5dc58f6898714ecf42a2d924b75c5b5bfa0ab5e7cf460c535a500dfbe67f3ddb3ab3a51a83cbc9de2ef101fda068ff91fe727b53765240
-  languageName: node
-  linkType: hard
-
-"@dsx-react/meter@npm:^0.3.40":
-  version: 0.3.40
-  resolution: "@dsx-react/meter@npm:0.3.40::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmeter%2F-%2Fmeter-0.3.40.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/theme": "npm:^0.3.37"
-    "@dsx-react/util": "npm:^0.5.1"
-    d3-scale: "npm:^4.0.2"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/afea1a6f0bdf7ae6d0aed1d4a66ab15bfcad667c339d50d3531e3e76a33c4d632dcda02a06b5b37271fdb623ae5eea5f3fe8ec80b61d4e3a381dd99cb9af3ad5
-  languageName: node
-  linkType: hard
-
-"@dsx-react/modal@npm:^0.4.42":
-  version: 0.4.42
-  resolution: "@dsx-react/modal@npm:0.4.42::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fmodal%2F-%2Fmodal-0.4.42.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/dialog": "npm:^0.1.12"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/2aba82af6d5a0e383490f66e6a5df7bb6db13b227d462331ab2a91ff0daf3cb69dae83d1d4f7f3f01e0acfc7fc26d2de153c3b6dad78b75f8ef4c7ce5ef94a89
-  languageName: node
-  linkType: hard
-
-"@dsx-react/navbar@npm:^0.8.4":
-  version: 0.8.4
-  resolution: "@dsx-react/navbar@npm:0.8.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnavbar%2F-%2Fnavbar-0.8.4.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/dialog": "npm:^0.1.12"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/inputs": "npm:^0.19.11"
-    "@dsx-react/link": "npm:^0.3.15"
-    "@dsx-react/logo": "npm:^0.4.2"
-    "@dsx-react/menu": "npm:^0.6.0"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/6333c566bfd652090e9fa5d3a065916e57934651bf50398e13ce751031495fe37db0792973a904184cf3b0f79d82303f1da95720c56d0d4d947afe6d10afc6da
-  languageName: node
-  linkType: hard
-
-"@dsx-react/note@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "@dsx-react/note@npm:4.0.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fnote%2F-%2Fnote-4.0.2.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/link": "npm:^0.3.15"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/567dad5326303a330fbc0190d3dcd21f44a18e4232f6e754e6c2386037772e623b3dcdc073052fa7cfdcee6b2ea090c9d19054490b99149df039d3feb45a76df
-  languageName: node
-  linkType: hard
-
-"@dsx-react/pagination@npm:^0.2.72":
-  version: 0.2.72
-  resolution: "@dsx-react/pagination@npm:0.2.72::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpagination%2F-%2Fpagination-0.2.72.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/50b5107aae5abc92a7ee3aed6ba97b07d268771dbe83e021bf3774a5b961a560d5236a7694610f8df7aebb4a8c6dd26d132f61f24bdd6f46cd475123ae82b5d9
-  languageName: node
-  linkType: hard
-
-"@dsx-react/panel@npm:^0.0.16":
-  version: 0.0.16
-  resolution: "@dsx-react/panel@npm:0.0.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpanel%2F-%2Fpanel-0.0.16.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/dialog": "npm:^0.1.12"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/2716ac3fa69369808941da03042c49c26228bc91575921367f433b0af83df20caa4e8ac4591b20d03d8a7ac3919288c4d5f407b8371b7213db6fd52bd4298795
-  languageName: node
-  linkType: hard
-
-"@dsx-react/pill@npm:^0.2.10":
-  version: 0.2.10
-  resolution: "@dsx-react/pill@npm:0.2.10::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpill%2F-%2Fpill-0.2.10.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/2e4e25b4c59dbd8a7bfe345a2bb05e487585131b41ae804feb02619f0b43d05cb14dbd5eab8d540c2a084e4e3776e0f3548af386e640e6b7485e8e991841e602
-  languageName: node
-  linkType: hard
-
-"@dsx-react/popover@npm:^0.3.74":
-  version: 0.3.74
-  resolution: "@dsx-react/popover@npm:0.3.74::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fpopover%2F-%2Fpopover-0.3.74.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/dialog": "npm:^0.1.12"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/provider": "npm:^0.7.31"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/util": "npm:^0.5.1"
-    "@floating-ui/react": "npm:^0.26.8"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/603c3d908f8b663221401badb578e379607fe6b870c6eea522d2ce89c614d232f5cf09616a3706021c6311e3854ddd1b5bd9ebab0dc2c5a160ece815c1cf2ed1
-  languageName: node
-  linkType: hard
-
-"@dsx-react/progress-steps@npm:^0.1.30":
-  version: 0.1.30
-  resolution: "@dsx-react/progress-steps@npm:0.1.30::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprogress-steps%2F-%2Fprogress-steps-0.1.30.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/74b8c359fff7ba1ab8781c7b36cb54f0c2e4f9869218319184b1b02bd8a95f4c7b2add37cd8ffcf03d422e0c685b2889f55120d58904d8e1c3e8a993ea181932
-  languageName: node
-  linkType: hard
-
-"@dsx-react/provider@npm:^0.7.31":
-  version: 0.7.31
-  resolution: "@dsx-react/provider@npm:0.7.31::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fprovider%2F-%2Fprovider-0.7.31.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/link": "npm:^0.3.15"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/0cddbfe221d36a4f99a831a5d031daa999beaeb5fdefd46ebc537322084f7788cb1e3ee3a309577553700cbffac7802bb0f3ac0797f3b84f2adcd6c8f4ec0503
-  languageName: node
-  linkType: hard
-
-"@dsx-react/scrollable@npm:^0.1.67":
-  version: 0.1.67
-  resolution: "@dsx-react/scrollable@npm:0.1.67::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fscrollable%2F-%2Fscrollable-0.1.67.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/cf0b2d45df1e239f4d1674513a9c860c9a7744b6dd5f49880a1776d064e2396c764e7a5fcf8398bf0b73b50a9d6fb8efdea7b37618cc50f1eea8c701d4e0fa6d
-  languageName: node
-  linkType: hard
-
-"@dsx-react/segmented-control@npm:^0.1.68":
-  version: 0.1.68
-  resolution: "@dsx-react/segmented-control@npm:0.1.68::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsegmented-control%2F-%2Fsegmented-control-0.1.68.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/popover": "npm:^0.3.74"
-    "@dsx-react/scrollable": "npm:^0.1.67"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/523ac55c8e141b7fb9978c5ca3a9dde27f51d1c5047ac529229cbf02a4f9b9245186c09fa8fdec7afe1302757f0fb9735d3c016f34853c19e01af47eea4b83d3
-  languageName: node
-  linkType: hard
-
-"@dsx-react/skeleton@npm:^0.2.41":
-  version: 0.2.41
-  resolution: "@dsx-react/skeleton@npm:0.2.41::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fskeleton%2F-%2Fskeleton-0.2.41.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/theme": "npm:^0.3.37"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/432e67ec3c9e783a4b6814fa79993a03154830ac5ff5a8f5e65fb580323f2f6cc41885895647a00e590ee8f6aac7d114b34910f9fee039133bf00ed280586d60
-  languageName: node
-  linkType: hard
-
-"@dsx-react/split-button@npm:^0.2.34":
-  version: 0.2.34
-  resolution: "@dsx-react/split-button@npm:0.2.34::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fsplit-button%2F-%2Fsplit-button-0.2.34.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/menu": "npm:^0.6.0"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/46b36f6e1fea4753d6907bd1a888a975474f6d0b17d2e9ac205e2175af124e647be4d2a5519fb020ba8516d825ac0f0d45a5ed80865943e4d9d477fe1055255b
-  languageName: node
-  linkType: hard
-
-"@dsx-react/spot-illustration@npm:^0.2.12":
-  version: 0.2.12
-  resolution: "@dsx-react/spot-illustration@npm:0.2.12::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Fspot-illustration%2F-%2Fspot-illustration-0.2.12.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/theme": "npm:^0.3.37"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/5a838e606a5b46cfef68f67f4718cdeaea8af3d445ca7f029f22302e3314a4e9075aac02b6ed9a0ec16599ec872dc009ff50eab254baabcb393057511fb5a8b2
-  languageName: node
-  linkType: hard
-
-"@dsx-react/table@npm:^0.6.16":
-  version: 0.6.16
-  resolution: "@dsx-react/table@npm:0.6.16::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftable%2F-%2Ftable-0.6.16.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/inputs": "npm:^0.19.11"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/theme": "npm:^0.3.37"
-    "@dsx-react/util": "npm:^0.5.1"
-    "@tanstack/react-table": "npm:^8.17.3"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/bcf9cdc3204a10f821b7aadcd048bde491c44bce542f7fa007375d4bedabe6d2ad731e451e0b637a72d89d2c1533352dae788fceacb8ed435f14c8c15517892f
-  languageName: node
-  linkType: hard
-
-"@dsx-react/tabs@npm:^0.2.81":
-  version: 0.2.81
-  resolution: "@dsx-react/tabs@npm:0.2.81::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftabs%2F-%2Ftabs-0.2.81.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/menu": "npm:^0.6.0"
-    "@dsx-react/scrollable": "npm:^0.1.67"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/e2d791c546e4891f377480f02e83d0aab1031e095f5632dcdf92d4bb65360cf387e2b7b1ba40f549fc2e38f5f756678b68b0e4b214be854aa7fb10299b2cacff
-  languageName: node
-  linkType: hard
-
-"@dsx-react/text@npm:^0.3.54":
-  version: 0.3.54
-  resolution: "@dsx-react/text@npm:0.3.54::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftext%2F-%2Ftext-0.3.54.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/skeleton": "npm:^0.2.41"
-    "@dsx-react/theme": "npm:^0.3.37"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/744fcd2b2bd97c26af42fdeef0b5c34add2e99154041569977c15777189f4e6ca59a85aa0122e810568685d021e512c3d0fc18c876a36c2977361672b6c4f0a2
-  languageName: node
-  linkType: hard
-
-"@dsx-react/theme@npm:^0.3.37":
-  version: 0.3.37
-  resolution: "@dsx-react/theme@npm:0.3.37::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftheme%2F-%2Ftheme-0.3.37.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/812e32214ca8bfb4b396a55153a6cbeb80ad461ccf14c7723a40026e5e959085119976ca58c1ed3756c487d4a082790b0abcec0710125de7ea8c5dcfa5a1c0b5
-  languageName: node
-  linkType: hard
-
-"@dsx-react/toast@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@dsx-react/toast@npm:0.2.2::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Ftoast%2F-%2Ftoast-0.2.2.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    "@dsx-react/note": "npm:^4.0.2"
-    "@dsx-react/provider": "npm:^0.7.31"
-    "@dsx-react/util": "npm:^0.5.1"
+    react-slick: "npm:^0.29.0"
     react-toastify: "npm:^9.1.3"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/1d6bd5df1bdfca3dc061b17a3480238f13431e8f1588412168340f581eef86d8b738d19c6c8a2db7453ec25909bf41dcac89b27f749fbf1abf33543b4bde1d9b
-  languageName: node
-  linkType: hard
-
-"@dsx-react/util@npm:^0.5.1":
-  version: 0.5.1
-  resolution: "@dsx-react/util@npm:0.5.1::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx-react%2Futil%2F-%2Futil-0.5.1.tgz"
-  dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.1"
-    clsx: "npm:^2.0.0"
+    temporal-polyfill: "npm:^0.2.5"
     use-resize-observer: "npm:^9.1.0"
   peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/44fd72e36f45466d62f437dba1c11c12e83d902fabfadad3809f60f27110f7fe9647e849478132e83a080493664b074cc8a1a32d8abda9af43c70f8e41e05a25
-  languageName: node
-  linkType: hard
-
-"@dsx/react@npm:^0.39.4":
-  version: 0.39.4
-  resolution: "@dsx/react@npm:0.39.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540dsx%2Freact%2F-%2Freact-0.39.4.tgz"
-  dependencies:
-    "@dsx-react/address": "npm:^0.3.27"
-    "@dsx-react/banner-carousel": "npm:^0.3.50"
-    "@dsx-react/breadcrumbs": "npm:^0.1.34"
-    "@dsx-react/button": "npm:^0.3.25"
-    "@dsx-react/card": "npm:^0.3.8"
-    "@dsx-react/card-carousel": "npm:^0.1.70"
-    "@dsx-react/chip": "npm:^0.4.4"
-    "@dsx-react/cross-matrix": "npm:^0.2.55"
-    "@dsx-react/gallery": "npm:^0.3.41"
-    "@dsx-react/i18n": "npm:^0.2.33"
-    "@dsx-react/icon": "npm:^0.3.48"
-    "@dsx-react/image": "npm:^0.2.58"
-    "@dsx-react/inputs": "npm:^0.19.11"
-    "@dsx-react/link": "npm:^0.3.15"
-    "@dsx-react/logo": "npm:^0.4.2"
-    "@dsx-react/menu": "npm:^0.6.0"
-    "@dsx-react/meter": "npm:^0.3.40"
-    "@dsx-react/modal": "npm:^0.4.42"
-    "@dsx-react/navbar": "npm:^0.8.4"
-    "@dsx-react/note": "npm:^4.0.2"
-    "@dsx-react/pagination": "npm:^0.2.72"
-    "@dsx-react/panel": "npm:^0.0.16"
-    "@dsx-react/pill": "npm:^0.2.10"
-    "@dsx-react/popover": "npm:^0.3.74"
-    "@dsx-react/progress-steps": "npm:^0.1.30"
-    "@dsx-react/provider": "npm:^0.7.31"
-    "@dsx-react/scrollable": "npm:^0.1.67"
-    "@dsx-react/segmented-control": "npm:^0.1.68"
-    "@dsx-react/skeleton": "npm:^0.2.41"
-    "@dsx-react/split-button": "npm:^0.2.34"
-    "@dsx-react/spot-illustration": "npm:^0.2.12"
-    "@dsx-react/table": "npm:^0.6.16"
-    "@dsx-react/tabs": "npm:^0.2.81"
-    "@dsx-react/text": "npm:^0.3.54"
-    "@dsx-react/theme": "npm:^0.3.37"
-    "@dsx-react/toast": "npm:^0.2.2"
-    "@dsx-react/util": "npm:^0.5.1"
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/2529dbc2a29fded8b10040f1ce562bf27085334ae70f3cbb4dd9639858796a5907c0440d727e2038a37b0639b749ddae93c3592b9a1c35f35ae0c7bdac4a4bfa
+    react: ">=16.14.0"
+    react-dom: ">=16.14.0"
+  checksum: 10c0/2efab0c0d2fd12deaa3fb8b188ae259a80bba6a8d108b7b3ad583ce880987dad5c9670df34425e93f08d5d6ea0650750cd0f404c12634d790d9c9787cfb37426
   languageName: node
   linkType: hard
 
@@ -1450,10 +817,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/d3-scale@npm:^4.0.9":
+  version: 4.0.9
+  resolution: "@types/d3-scale@npm:4.0.9::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Fd3-scale%2F-%2Fd3-scale-4.0.9.tgz"
+  dependencies:
+    "@types/d3-time": "npm:*"
+  checksum: 10c0/4ac44233c05cd50b65b33ecb35d99fdf07566bcdbc55bc1306b2f27d1c5134d8c560d356f2c8e76b096e9125ffb8d26d95f78d56e210d1c542cb255bdf31d6c8
+  languageName: node
+  linkType: hard
+
+"@types/d3-time@npm:*":
+  version: 3.0.4
+  resolution: "@types/d3-time@npm:3.0.4::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Fd3-time%2F-%2Fd3-time-3.0.4.tgz"
+  checksum: 10c0/6d9e2255d63f7a313a543113920c612e957d70da4fb0890931da6c2459010291b8b1f95e149a538500c1c99e7e6c89ffcce5554dd29a31ff134a38ea94b6d174
+  languageName: node
+  linkType: hard
+
 "@types/estree@npm:1.0.8":
   version: 1.0.8
   resolution: "@types/estree@npm:1.0.8::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Festree%2F-%2Festree-1.0.8.tgz"
   checksum: 10c0/39d34d1afaa338ab9763f37ad6066e3f349444f9052b9676a7cc0252ef9485a41c6d81c9c4e0d26e9077993354edf25efc853f3224dd4b447175ef62bdcc86a5
+  languageName: node
+  linkType: hard
+
+"@types/react-slick@npm:^0.23.13":
+  version: 0.23.13
+  resolution: "@types/react-slick@npm:0.23.13::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Freact-slick%2F-%2Freact-slick-0.23.13.tgz"
+  dependencies:
+    "@types/react": "npm:*"
+  checksum: 10c0/35dd72dfbac234b8db019fb8af250ac3891e564d13001642353aa0b7c37f6ed1ff1f5e8fa8b034706993c4d27ac1977c031942636cfd05414ee4667d45c8aea6
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*":
+  version: 19.1.9
+  resolution: "@types/react@npm:19.1.9::__archiveUrl=https%3A%2F%2Fproget.directsupply.cloud%2Fnpm%2Fjs%2F%2540types%2Freact%2F-%2Freact-19.1.9.tgz"
+  dependencies:
+    csstype: "npm:^3.0.2"
+  checksum: 10c0/b418da4aaf18fbc6df4f1b7096dda7ee152d697cac00d729ffd855b2b44a3a9cfb2ecb017ed20979ea3a7d98a5ce5fcf01ac1a3614d4a3e4d7069a0c45e49b0f
   languageName: node
   linkType: hard
 
@@ -1574,13 +975,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"calendarize@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "calendarize@npm:1.1.1"
-  checksum: 10c0/b2ab535961843321e63ca51a6b0baf55b8dd739272b5de84c5e1c0f2c7f9fb72be6768f8ea8fcce0356e955f57188c9719b2f3d4934a4a76b096487c6eb2a17d
-  languageName: node
-  linkType: hard
-
 "caniuse-lite@npm:^1.0.30001726":
   version: 1.0.30001731
   resolution: "caniuse-lite@npm:1.0.30001731"
@@ -1654,6 +1048,13 @@ __metadata:
     shebang-command: "npm:^2.0.0"
     which: "npm:^2.0.1"
   checksum: 10c0/053ea8b2135caff68a9e81470e845613e374e7309a47731e81639de3eaeb90c3d01af0e0b44d2ab9d50b43467223b88567dfeb3262db942dc063b9976718ffc1
+  languageName: node
+  linkType: hard
+
+"csstype@npm:^3.0.2":
+  version: 3.1.3
+  resolution: "csstype@npm:3.1.3"
+  checksum: 10c0/80c089d6f7e0c5b2bd83cf0539ab41474198579584fa10d86d0cafe0642202343cbc119e076a0b1aece191989477081415d66c9fefbf3c957fc2fc4b7009f248
   languageName: node
   linkType: hard
 
@@ -1743,7 +1144,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "dsx-product-showcase@workspace:."
   dependencies:
-    "@dsx/react": "npm:^0.39.4"
+    "@dsx/react": "npm:0.42.0"
     "@vitejs/plugin-react": "npm:^4.2.0"
     jquery: "npm:^3.7.1"
     react: "npm:^18.2.0"
@@ -2482,15 +1883,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-icons@npm:^5.1.0":
-  version: 5.5.0
-  resolution: "react-icons@npm:5.5.0"
-  peerDependencies:
-    react: "*"
-  checksum: 10c0/a24309bfc993c19cbcbfc928157e53a137851822779977b9588f6dd41ffc4d11ebc98b447f4039b0d309a858f0a42980f6bfb4477fb19f9f2d1bc2e190fcf79c
-  languageName: node
-  linkType: hard
-
 "react-imask@npm:^7.6.1":
   version: 7.6.1
   resolution: "react-imask@npm:7.6.1"
@@ -2825,6 +2217,22 @@ __metadata:
     mkdirp: "npm:^3.0.1"
     yallist: "npm:^5.0.0"
   checksum: 10c0/d4679609bb2a9b48eeaf84632b6d844128d2412b95b6de07d53d8ee8baf4ca0857c9331dfa510390a0727b550fd543d4d1a10995ad86cdf078423fbb8d99831d
+  languageName: node
+  linkType: hard
+
+"temporal-polyfill@npm:^0.2.5":
+  version: 0.2.5
+  resolution: "temporal-polyfill@npm:0.2.5"
+  dependencies:
+    temporal-spec: "npm:^0.2.4"
+  checksum: 10c0/f2e828b15809bac9fcbab28f238c03277dd134ccc05f80cf2daa26cf8f8a865e9a2f610bcd6148845908665f8b59a5793c25d607cc0eec95f869d9d746839230
+  languageName: node
+  linkType: hard
+
+"temporal-spec@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "temporal-spec@npm:0.2.4"
+  checksum: 10c0/89dec88dcded2cdffa36c3c2274881e833dd69e5959c9b50f52a93b29f02b8f265288be113b2d3b70e89dc85ece7eb8f9121c6d0e0563ea21bbf81693da8f97d
   languageName: node
   linkType: hard
 

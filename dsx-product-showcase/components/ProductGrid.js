@@ -6,7 +6,7 @@ const products = [
   {
     id: 1,
     name: "Premium Headphones",
-    description: "High-quality wireless headphones with noise cancellation",
+    description: "Wireless headphones with noise cancellation",
     price: 249.99,
     image: "https://via.placeholder.com/300x200?text=Headphones",
   },

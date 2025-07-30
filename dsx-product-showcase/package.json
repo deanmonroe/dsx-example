@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@dsx/react": "^0.39.4",
+    "@dsx/react": "0.42.0",
     "jquery": "^3.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
