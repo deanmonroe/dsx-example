@@ -101,6 +101,11 @@ const App = () => {
             <FeaturedProductCarousel />
           </div>
 
+          {/* Product Tags */}
+          <div style={{ margin: "var(--size-600) 0" }}>
+            <ProductTags />
+          </div>
+
           {/* Product Categories */}
           <div style={{ margin: "var(--size-600) 0" }}>
             <Text
@@ -198,11 +203,6 @@ const App = () => {
           {/* Checkout Progress */}
           <div style={{ margin: "var(--size-600) 0" }}>
             <CheckoutProgress />
-          </div>
-
-          {/* Product Tags */}
-          <div style={{ margin: "var(--size-600) 0" }}>
-            <ProductTags />
           </div>
         </main>
 

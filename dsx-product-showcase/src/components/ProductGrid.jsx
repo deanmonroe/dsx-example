@@ -49,7 +49,7 @@ const products = [
     description: "Multi-port hub for all your connectivity needs",
     price: 59.99,
     image:
-      "https://media.istockphoto.com/id/1356366044/photo/black-mechanical-keyboard-on-white-background-blue-neon-light.jpg?s=612x612&w=0&k=20&c=GhpZsK36fsuoSP-4-pR7ma9UeIApatkBq6M-bnXFf1c=",
+      "https://media.istockphoto.com/id/1192619363/photo/multi-functional-usb-c-hub-station-for-promotional-branding-3d-render-illustration.jpg?s=612x612&w=0&k=20&c=avN3vqEWq8e71-MBSWb9Zy1m6ejOqVO4LDncLXtF7eY=",
   },
 ];
 
