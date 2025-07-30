@@ -7,37 +7,43 @@ const sampleProducts = [
     id: 1,
     name: "Premium Headphones",
     price: 249.99,
-    image: "https://placehold.co/200x200/e2e8f0/1e293b?text=Headphones",
+    image:
+      "https://media.istockphoto.com/id/1087256248/photo/wireless-headphone-on-laptop.jpg?s=612x612&w=0&k=20&c=sLa4RWqgf4UaRHnzD41VPClpQx240zgnNP2PZWabRBw=",
   },
   {
     id: 2,
     name: "Wireless Speaker",
     price: 129.99,
-    image: "https://placehold.co/200x200/e2e8f0/1e293b?text=Speaker",
+    image:
+      "https://media.istockphoto.com/id/1335374517/vector/black-bluetooth-speaker-with-power-blue-lead-on-white-background-eps10-vector-illusration.jpg?s=612x612&w=0&k=20&c=FJHzQf24mszeen0xJJz_NQdrm89sGau_CiYJM-_-y9o=",
   },
   {
     id: 3,
     name: "Smart Watch",
     price: 199.99,
-    image: "https://placehold.co/200x200/e2e8f0/1e293b?text=Watch",
+    image:
+      "https://media.istockphoto.com/id/1438573840/vector/fitness-tracker-display-smart-watch-interface.jpg?s=612x612&w=0&k=20&c=eFX4n8E8M_f3-xsqhRkdyThCNdE0EI372GYiYF2oN5Y=",
   },
   {
     id: 4,
     name: "Laptop Stand",
     price: 49.99,
-    image: "https://placehold.co/200x200/e2e8f0/1e293b?text=Stand",
+    image:
+      "https://media.istockphoto.com/id/1125614863/photo/the-laptop-is-open-and-mounted-on-a-cooling-stand.jpg?s=612x612&w=0&k=20&c=YY9gxEYpezjq38BZx27xwf1ddBKWKPcAOVqnmODJ774=",
   },
   {
     id: 5,
     name: "Wireless Mouse",
     price: 39.99,
-    image: "https://placehold.co/200x200/e2e8f0/1e293b?text=Mouse",
+    image:
+      "https://media.istockphoto.com/id/1458492520/photo/black-wireless-computer-mouse-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=hLFS1ukv567H6S-7NjQzvVxNKb7qPkvIKbXkT7Sd2r8=",
   },
   {
     id: 6,
     name: "Mechanical Keyboard",
     price: 149.99,
-    image: "https://placehold.co/200x200/e2e8f0/1e293b?text=Keyboard",
+    image:
+      "https://media.istockphoto.com/id/1356366044/photo/black-mechanical-keyboard-on-white-background-blue-neon-light.jpg?s=612x612&w=0&k=20&c=GhpZsK36fsuoSP-4-pR7ma9UeIApatkBq6M-bnXFf1c=",
   },
 ];
 

@@ -31,7 +31,8 @@ const sampleProduct = {
   description:
     "Wireless headphones with noise cancellation and premium sound quality. Features include 30-hour battery life, comfortable ear cushions, and voice assistant support.",
   price: 249.99,
-  image: "https://placehold.co/300x200/e2e8f0/1e293b?text=Headphones",
+  image:
+    "https://media.istockphoto.com/id/1087256248/photo/wireless-headphone-on-laptop.jpg?s=612x612&w=0&k=20&c=sLa4RWqgf4UaRHnzD41VPClpQx240zgnNP2PZWabRBw=",
   rating: 4.7,
   reviews: 128,
 };

@@ -22,7 +22,7 @@ const ProductImageGallery = () => {
       name: "Premium Headphones",
       images: [
         {
-          src: "https://placehold.co/600x400/e2e8f0/1e293b?text=Headphones+Front",
+          src: "https://media.istockphoto.com/id/1087256248/photo/wireless-headphone-on-laptop.jpg?s=612x612&w=0&k=20&c=sLa4RWqgf4UaRHnzD41VPClpQx240zgnNP2PZWabRBw=",
           alt: "Premium Headphones - Front View",
         },
         {
@@ -40,7 +40,7 @@ const ProductImageGallery = () => {
       name: "Wireless Speaker",
       images: [
         {
-          src: "https://placehold.co/600x400/f0e7e2/1e293b?text=Speaker+Front",
+          src: "https://media.istockphoto.com/id/1335374517/vector/black-bluetooth-speaker-with-power-blue-lead-on-white-background-eps10-vector-illusration.jpg?s=612x612&w=0&k=20&c=FJHzQf24mszeen0xJJz_NQdrm89sGau_CiYJM-_-y9o=",
           alt: "Wireless Speaker - Front View",
         },
         {
@@ -58,7 +58,7 @@ const ProductImageGallery = () => {
       name: "Smart Watch",
       images: [
         {
-          src: "https://placehold.co/600x400/e2f0e8/1e293b?text=Watch+Front",
+          src: "https://media.istockphoto.com/id/1438573840/vector/fitness-tracker-display-smart-watch-interface.jpg?s=612x612&w=0&k=20&c=eFX4n8E8M_f3-xsqhRkdyThCNdE0EI372GYiYF2oN5Y=",
           alt: "Smart Watch - Front View",
         },
         {
