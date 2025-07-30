@@ -1,15 +1,32 @@
 import React from "react";
-import { Card, Text, Image, Button, MdShoppingCart, MdInfo } from "@dsx/react";
+import {
+  Card,
+  Text,
+  Image,
+  Button,
+  MdShoppingCart,
+  MdInfo,
+  useToast,
+} from "@dsx/react";
 
 const ProductCard = ({ product }) => {
   const { name, description, price, image } = product;
+  const toast = useToast();
 
   const handleAddToCart = () => {
-    alert(`Added ${name} to cart!`);
+    toast(`Added ${name} to cart!`, {
+      variant: "success",
+      autoClose: 3000,
+      title: "Added to Cart",
+    });
   };
 
   const handleViewDetails = () => {
-    alert(`Viewing details for ${name}`);
+    toast(`Viewing details for ${name}`, {
+      variant: "info",
+      autoClose: 3000,
+      title: "Product Details",
+    });
   };
 
   return (

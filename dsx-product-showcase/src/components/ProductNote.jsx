@@ -56,10 +56,4 @@ export const LimitedStockNote = () => (
   </ProductNote>
 );
 
-export const PromotionNote = () => (
-  <ProductNote variant="info" title="Special Promotion" showAction>
-    Use code SUMMER25 at checkout to get 25% off your purchase.
-  </ProductNote>
-);
-
 export default ProductNote;

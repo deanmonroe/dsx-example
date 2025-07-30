@@ -16,7 +16,7 @@ import ToastProvider from "./ToastProvider";
 // Import new components
 import Breadcrumbs from "./Breadcrumbs";
 import SearchBar from "./SearchBar";
-import { ShippingNote, PromotionNote } from "./ProductNote";
+import { ShippingNote } from "./ProductNote";
 import { ShippingInfoTooltip, SizeGuideTooltip } from "./ProductTooltip";
 import ProductFilter, { PriceRangeFilter, RatingFilter } from "./ProductFilter";
 import {
@@ -94,9 +94,6 @@ const App = () => {
 
           {/* Shipping Note */}
           <ShippingNote />
-
-          {/* Promotion Note */}
-          <PromotionNote />
 
           {/* Featured Products Carousel */}
           <div style={{ margin: "var(--size-600) 0" }}>

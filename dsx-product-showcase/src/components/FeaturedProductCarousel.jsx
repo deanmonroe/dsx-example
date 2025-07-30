@@ -7,6 +7,7 @@ import {
   Button,
   MdShoppingCart,
   MdInfo,
+  useToast,
 } from "@dsx/react";
 
 // Featured products data - a subset of products that are highlighted
@@ -46,12 +47,22 @@ const featuredProducts = [
 ];
 
 const FeaturedProductCarousel = () => {
+  const toast = useToast();
+
   const handleAddToCart = (product) => {
-    alert(`Added ${product.name} to cart!`);
+    toast(`Added ${product.name} to cart!`, {
+      variant: "success",
+      autoClose: 3000,
+      title: "Added to Cart",
+    });
   };
 
   const handleViewDetails = (product) => {
-    alert(`Viewing details for ${product.name}`);
+    toast(`Viewing details for ${product.name}`, {
+      variant: "info",
+      autoClose: 3000,
+      title: "Product Details",
+    });
   };
 
   // Create card elements for each featured product
