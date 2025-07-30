@@ -6,10 +6,13 @@ import {
   Button,
   Pill,
   Note,
+  Tooltip,
   useToast,
   MdShoppingCart,
   MdFavorite,
   MdShare,
+  MdInfo,
+  StandaloneIcon,
 } from "@dsx/react";
 import ProductRating from "./ProductRating";
 
@@ -74,25 +77,63 @@ const ProductDetail = ({ product }) => {
             <div>
               <div style={{ marginBottom: "var(--size-400)" }}>
                 <Text variant="headline-2">{product.name}</Text>
-                <div style={{ margin: "var(--size-300) 0" }}>
-                  <Pill color="color-primary">{`$${product.price.toFixed(
-                    2
-                  )}`}</Pill>
-                  <Pill
-                    color="color-accent"
-                    style={{ marginLeft: "var(--size-200)" }}
-                  >
-                    In Stock
-                  </Pill>
+                <div
+                  style={{
+                    margin: "var(--size-300) 0",
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <Tooltip contents="Current price. Members get 10% off!">
+                    <Pill color="color-primary">{`$${product.price.toFixed(
+                      2
+                    )}`}</Pill>
+                  </Tooltip>
+                  <Tooltip contents="Available for immediate shipping">
+                    <Pill
+                      color="color-accent"
+                      style={{ marginLeft: "var(--size-200)" }}
+                    >
+                      In Stock
+                    </Pill>
+                  </Tooltip>
                 </div>
-                <Text variant="body">{product.description}</Text>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "var(--size-200)",
+                  }}
+                >
+                  <Text variant="body">{product.description}</Text>
+                  <Tooltip contents="Product specifications and features">
+                    <StandaloneIcon
+                      icon={MdInfo}
+                      color="var(--color-primary-500)"
+                    />
+                  </Tooltip>
+                </div>
 
                 {/* Product Rating */}
-                <div style={{ margin: "var(--size-400) 0" }}>
+                <div
+                  style={{
+                    margin: "var(--size-400) 0",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "var(--size-200)",
+                  }}
+                >
                   <ProductRating
                     rating={product.rating || 4.5}
                     reviews={product.reviews || 100}
                   />
+                  <Tooltip contents="Based on verified customer reviews">
+                    <StandaloneIcon
+                      icon={MdInfo}
+                      color="var(--color-primary-500)"
+                      size="sm"
+                    />
+                  </Tooltip>
                 </div>
               </div>
 
@@ -140,19 +181,25 @@ const ProductDetail = ({ product }) => {
                   gap: "var(--size-300)",
                 }}
               >
-                <Button
-                  variant="primary"
-                  icon={MdShoppingCart}
-                  onClick={handleAddToCart}
-                >
-                  Add to Cart
-                </Button>
-                <Button variant="secondary" icon={MdFavorite}>
-                  Save
-                </Button>
-                <Button variant="secondary" icon={MdShare}>
-                  Share
-                </Button>
+                <Tooltip contents="Add this item to your shopping cart">
+                  <Button
+                    variant="primary"
+                    icon={MdShoppingCart}
+                    onClick={handleAddToCart}
+                  >
+                    Add to Cart
+                  </Button>
+                </Tooltip>
+                <Tooltip contents="Save to your wishlist for later">
+                  <Button variant="secondary" icon={MdFavorite}>
+                    Save
+                  </Button>
+                </Tooltip>
+                <Tooltip contents="Share this product with friends">
+                  <Button variant="secondary" icon={MdShare}>
+                    Share
+                  </Button>
+                </Tooltip>
               </div>
             </div>
           </div>

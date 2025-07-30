@@ -6,6 +6,11 @@ import FeaturedProductCarousel from "./FeaturedProductCarousel";
 import ProductCategories from "./ProductCategories";
 import SpecialOffers from "./SpecialOffers";
 import ProductDetail from "./ProductDetail";
+import ProductComparison from "./ProductComparison";
+import ProductImageGallery from "./ProductImageGallery";
+import CheckoutProgress from "./CheckoutProgress";
+import ProductTags from "./ProductTags";
+import CustomerSupport from "./CustomerSupport";
 import ToastProvider from "./ToastProvider";
 
 // Sample product for detail view
@@ -105,6 +110,26 @@ const App = () => {
               <ProductGrid />
             )}
           </div>
+
+          {/* Product Comparison */}
+          <div style={{ margin: "var(--size-600) 0" }}>
+            <ProductComparison />
+          </div>
+
+          {/* Product Image Gallery */}
+          <div style={{ margin: "var(--size-600) 0" }}>
+            <ProductImageGallery />
+          </div>
+
+          {/* Checkout Progress */}
+          <div style={{ margin: "var(--size-600) 0" }}>
+            <CheckoutProgress />
+          </div>
+
+          {/* Product Tags */}
+          <div style={{ margin: "var(--size-600) 0" }}>
+            <ProductTags />
+          </div>
         </main>
 
         {/* Footer */}
@@ -115,6 +140,9 @@ const App = () => {
             </Text>
           </div>
         </footer>
+
+        {/* Customer Support Chat */}
+        <CustomerSupport />
       </div>
     </ToastProvider>
   );
