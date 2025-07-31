@@ -75,6 +75,7 @@ const ScrollableProductList = ({
                 border: "1px solid var(--color-neutral-200)",
                 borderRadius: "var(--border-radius-default)",
                 cursor: "pointer",
+                backgroundColor: "var(--color-neutral-0)",
               }}
               onClick={() => onProductClick && onProductClick(product)}
             >

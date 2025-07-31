@@ -1,5 +1,18 @@
 import React, { useState } from "react";
-import { NavBar, MainNav, Text, MdShoppingCart } from "@dsx/react";
+import {
+  NavBar,
+  MainNav,
+  NavBarTab,
+  NavBarUtility,
+  Text,
+  MdShoppingCart,
+  MdHome,
+  MdLocalOffer,
+  MdCompare,
+  MdPhotoLibrary,
+  MdShoppingBasket,
+  DsLogo,
+} from "@dsx/react";
 
 import ProductGrid from "./ProductGrid";
 import FeaturedProductCarousel from "./FeaturedProductCarousel";
@@ -10,7 +23,6 @@ import ProductComparison from "./ProductComparison";
 import ProductImageGallery from "./ProductImageGallery";
 import CheckoutProgress from "./CheckoutProgress";
 import ProductTags from "./ProductTags";
-import CustomerSupport from "./CustomerSupport";
 import ToastProvider from "./ToastProvider";
 
 // Import new components
@@ -69,10 +81,54 @@ const App = () => {
 
   return (
     <ToastProvider>
-      <div>
+      <div style={{ backgroundColor: "var(--color-neutral-100)" }}>
         {/* Header with NavBar */}
         <NavBar placement="static">
-          <MainNav title="DSX Product Showcase" />
+          <MainNav background="neutral-0" corporateLogo={DsLogo} href="/">
+            <NavBarTab
+              href="#home"
+              title="Home"
+              icon={MdHome}
+              active={currentPage === "Home"}
+              onClick={() => setCurrentPage("Home")}
+            />
+            <NavBarTab
+              href="#products"
+              title="Products"
+              icon={MdShoppingBasket}
+              active={currentPage === "Products"}
+              onClick={() => {
+                setCurrentPage("Products");
+                setShowDetailView(false);
+              }}
+            />
+            <NavBarTab
+              href="#offers"
+              title="Special Offers"
+              icon={MdLocalOffer}
+              active={currentPage === "Offers"}
+              onClick={() => setCurrentPage("Offers")}
+            />
+            <NavBarTab
+              href="#compare"
+              title="Compare"
+              icon={MdCompare}
+              active={currentPage === "Compare"}
+              onClick={() => setCurrentPage("Compare")}
+            />
+            <NavBarTab
+              href="#gallery"
+              title="Gallery"
+              icon={MdPhotoLibrary}
+              active={currentPage === "Gallery"}
+              onClick={() => setCurrentPage("Gallery")}
+            />
+            <NavBarUtility
+              icon={MdShoppingCart}
+              title="Cart"
+              onClick={() => console.log("Cart clicked")}
+            />
+          </MainNav>
         </NavBar>
 
         {/* Main content */}
@@ -210,13 +266,10 @@ const App = () => {
         <footer>
           <div className="container">
             <Text variant="body-small">
-              © 2025 DSX Product Showcase. All rights reserved.
+              © 2025 Summer Hackathon. All rights reserved.
             </Text>
           </div>
         </footer>
-
-        {/* Customer Support Chat */}
-        <CustomerSupport />
       </div>
     </ToastProvider>
   );
